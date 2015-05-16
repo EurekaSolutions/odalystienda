@@ -10,17 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '252965546dc4c275683-64036313',
-  'variables' => 
-  array (
-    'link' => 0,
-    'telnumber' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5546dc4c29c781_05325940',
+  'unifunc' => 'content_5557a891a7a462_35058653',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5546dc4c29c781_05325940')) {function content_5546dc4c29c781_05325940($_smarty_tpl) {?><div id="contact-link">
+<?php if ($_valid && !is_callable('content_5557a891a7a462_35058653')) {function content_5557a891a7a462_35058653($_smarty_tpl) {?><div id="contact-link">
 	<a href="http://localhost/odalystienda/contactanos" title="Contacte con nosotros">Contacte con nosotros</a>
 </div>
 	<span class="shop-phone">

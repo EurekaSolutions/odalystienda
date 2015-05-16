@@ -7,7 +7,7 @@ define('_DB_PREFIX_', 'ps_');
 define('_MYSQL_ENGINE_', 'InnoDB');
 define('_PS_CACHING_SYSTEM_', 'CacheMemcache');
 define('_PS_CACHE_ENABLED_', '0');
-define('_COOKIE_KEY_', 'BdIZiLOmp9WsoVIJQaqcLr1C7vkpLOmy8dTQp7yUp8hGXtnmquUoO0Ov');
+define('_COOKIE_KEY_', '___odalystienda___');
 define('_COOKIE_IV_', 'FUBsnDoV');
 define('_PS_CREATION_DATE_', '2015-05-03');
 if (!defined('_PS_VERSION_'))

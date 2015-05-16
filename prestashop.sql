@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50156
 File Encoding         : 65001
 
-Date: 2015-05-03 22:13:07
+Date: 2015-05-16 16:05:08
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -771,11 +771,25 @@ CREATE TABLE `ps_advice` (
   `stop_day` int(11) NOT NULL DEFAULT '0',
   `weight` int(11) DEFAULT '1',
   PRIMARY KEY (`id_advice`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_advice
 -- ----------------------------
+INSERT INTO `ps_advice` VALUES ('1', '324', '31', null, '1', '0', 'before', '.toolbar-placeholder:eq(0), form#invoice_date_form, form#product,  form#form-product, form#store,  form#form-store, form#category,  form#form-category', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('2', '353', '59', null, '1', '0', 'before', '#typeTranslationForm', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('3', '354', '1', null, '1', '0', 'before', 'addons', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('4', '389', '0', null, '1', '0', 'before', '#upgradeButtonBlock', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('5', '479', '21', null, '1', '0', 'before', '.toolbar-placeholder:eq(0), form#product, form#form-product', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('6', '520', '1', null, '1', '0', 'after', '.dash_news', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('7', '532', '41', null, '1', '0', 'before', '.leadin:first', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('8', '540', '30', null, '0', '0', 'after', '.leadin:first', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('9', '548', '21', null, '0', '0', 'after', '.leadin:first', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('10', '555', '1', null, '1', '0', 'after', '.dash_news', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('11', '556', '1', null, '1', '0', 'after', '.dash_news', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('12', '571', '9', null, '0', '0', 'before', '.leadin:first', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('13', '581', '38', null, '1', '0', 'before', '.leadin:first', '0', '0', '1');
+INSERT INTO `ps_advice` VALUES ('14', '582', '38', null, '1', '0', 'before', '.leadin:first', '0', '0', '1');
 
 -- ----------------------------
 -- Table structure for `ps_advice_lang`
@@ -791,6 +805,20 @@ CREATE TABLE `ps_advice_lang` (
 -- ----------------------------
 -- Records of ps_advice_lang
 -- ----------------------------
+INSERT INTO `ps_advice_lang` VALUES ('1', '1', '<div id=\"wrap_id_advice_324\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Astucia</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"324\" href=\"#advice_content_324\">Màs</a></span>\r\n\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			¿Necesitas ayuda? Aprende a usar el Back Office y crear tu tienda online de forma rápida y sin moverte, siguiendo nuestra formación usuario en línea!\r\n		</span>\r\n	</div>\r\n	<div class=\"hide\">\r\n		<div id=\"advice_content_324\" class=\"gamification-tip-infobox\">\r\n			<div class=\"gamification-tip-infobox-title\">\r\n				<span class=\"gamification-tip-infobox-title-prefix\"> </span>\r\n				 Formación Usuario en línea\r\n			</div>\r\n			<div class=\"gamification-tip-infobox-content\">\r\n				<div class=\"gamification-tip-infobox-content-image\">\r\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/324.png\" alt=\"logo\">\r\n				</div>\r\n				<div class=\"gamification-tip-infobox-content-description\">\r\n					<p>Eres un nuevo comerciante y quieres aprender a usar el Back Office, descubrir las funcionalidades principales de PrestaShop para lanzar tu tienda en línea rápidamente! No pierde tiempo, participa en la formación en línea completa de Usuario animada por nuestro formador-experto PrestaShop, sin salir de tu casa!</p>\r\n					<div class=\"gamification-tip-infobox-content-controls right\">\r\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\">Cerca</a>\r\n						<a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=324&url=http%3A%2F%2Fwww.prestashop.com%2Fes%2Fformacion-prestashop%3Futm_source%3Dback-office%26utm_medium%3Dtraining%26utm_campaign%3Dback-office-ES%23training_11\"  class=\"button success\" target=\"_blank\">Saber màs</a>\r\n					</div>\r\n				</div>\r\n			</div>\r\n		</div>\r\n	</div>\r\n</div>\r\n\r\n<script>\r\n	$(document).ready( function () {\r\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\r\n			id_advice = 324;			\r\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\r\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\r\n		});\r\n	});\r\n</script>\r\n</div>');
+INSERT INTO `ps_advice_lang` VALUES ('2', '1', '<div id=\"wrap_id_advice_353\" ><style>\r\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:170px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:370px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\r\n</style>\r\n<hr class=\"clear\"/>\r\n<div id=\"advice-16\">\r\n<div class=\"gamification-tip\">\r\n	<div class=\"gamification-tip-title\">Advice</div>\r\n	<span class=\"gamification-tip-cta\"><a class=\"\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">Join</a><a class=\"gamification_close\" style=\"display:none\"  id=\"353\" href=\"#advice_content_353\">close</a></span>\r\n	<div class=\"gamification-tip-description-container\">\r\n		<span class=\"gamification-tip-description\">\r\n			Help us translate PrestaShop 1.6 into your language by <a href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=353&url=http%3A%2F%2Fcrowdin.net%2Fproject%2Fprestashop-official%2F\">joining us on Crowdin</a>!\r\n		</span>\r\n<div style=\"display:none\"><img src=\"https://gamification.prestashop.com/api/getAdviceImg/353.png\" /></div>\r\n	</div>\r\n</div>\r\n</div>\r\n</div>');
+INSERT INTO `ps_advice_lang` VALUES ('3', '1', '<div id=\"wrap_id_advice_354\" ><style>\r\n#wrap_id_advice_354 .panel.panel-advice { position: relative; padding: 10px !important; min-height: 75px; }\r\n#wrap_id_advice_354 .panel.panel-advice a.preactivationLink { display: table; margin: 0; text-decoration: none; }\r\n#wrap_id_advice_354 .panel.panel-advice a.preactivationLink p, .panel.panel-advice a.preactivationLink img { display: table-cell; vertical-align: middle; }\r\n#wrap_id_advice_354 .panel.panel-advice a.preactivationLink p { padding: 0 20px; }\r\n#wrap_id_advice_354 .panel.panel-advice .gamification-close-confirmation { position: absolute; top: 4px; right: 5px; background: #FFF; padding: 5px 3px;}\r\n#wrap_id_advice_354 .panel.panel-advice .gamification_premium_close i { color: #00aff0; }\r\n#wrap_id_advice_354 .panel.panel-advice:hover .gamification_premium_close { display: block; }\r\n</style>\r\n<div class=\"col-lg-6\">\r\n	<section id=\"\" class=\"panel panel-advice\">\r\n		<a class=\"preactivationLink row\" rel=\"ebay\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=321&url=http%3A%2F%2Faddons.prestashop.com\">\r\n			<img src=\"https://gamification.prestashop.com/api/getAdviceImg/354.png\" class=\"advice-img img-thumbnail\">\r\n			<p class=\"advice-description\">Más de 3 500 módulos y temas PrestaShop ¡para vender más desde hoy mismo!</p>\r\n		</a>\r\n	</section>\r\n</div>\r\n</div>');
+INSERT INTO `ps_advice_lang` VALUES ('4', '1', '<div id=\"wrap_id_advice_389\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/389.png\" />\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"389\" href=\"http://www.prestashop.com/club/?utm_source=back-office&utm_medium=gamification\" target=\"_blank\">Learn more</a><a class=\"gamification_close\" style=\"display:none\"  id=\"389\" href=\"#advice_content_389\">Cerrar</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			About to upgrade? How about giving your opinion on future releases before anyone else?		</span>\n	</div>\n</div>\n</div></div>');
+INSERT INTO `ps_advice_lang` VALUES ('5', '1', '<div id=\"wrap_id_advice_479\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdviceImg/479.png\" />\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"479\" href=\"http://addons.prestashop.com/en/administration-tools-prestashop-modules/2937-store-manager-for-prestashop.html\" target=\"_blank\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"479\" href=\"#advice_content_479\">Cerrar</a></span>\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			Un 9% de ejecutivos están satisfechos con cómo utilizan su tiempo en su trabajo.		</span>\n	</div>\n</div>\n</div></div>');
+INSERT INTO `ps_advice_lang` VALUES ('6', '1', '<div id=\"wrap_id_advice_520\" >\n		<section id=\"0_sendinblue\" class=\"panel \" style=\"display:none\">\n			<header class=\"panel-heading\">\n				<span class=\"icon-lightbulb\"></span> Consejo del día</header>\n			<div class=\"panel-body\" style=\"padding:0\">\n				<img class=\"img-responsive\" src=\"https://api.prestashop.com/partner/tipsoftheday/img/logo-sendinblue.png\" style=\"float:right; margin-left: 5px;\">\n				<img src=\"https://gamification.prestashop.com/api/getAdviceImg/520.png\"/>\n				<p><b>¿Sabías que fidelizar a un cliente cuesta cinco veces menos que conseguir otro?</b></p>\n				<p>¿Quieres mantener a tus clientes informados de las novedades y ofertas de una forma eficaz y asequible? Envíales emails y SMS con SendinBlue. ¡Pruébalo gratis!</p>\n				<span class=\"text-right\" style=\"float:right\">\n					<a class=\"btn btn-default\" target=\"_blank\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=520&url=http%3A%2F%2Faddons.prestashop.com%2Fes%2Fpublicidad-marketing-newsletter-modulos%2F8300-mailinblue.html%3Futm_source%3Dback-office%26utm_medium%3Dtipoftheday%26utm_campaign%3Dpartenariats%26utm_content%3Dsendinblue\">¿Quieres saber más?</a>\n				</span>\n			</div>\n		</section>\n			<script>\n			$(document).ready( function () {\n				$(\'#\'+rand(0)+\'_sendinblue\').show();\n			});\n\n			function rand(nbr){\n			   return Math.floor(Math.random()*(nbr+1));\n			}\n			</script>\n			</div>');
+INSERT INTO `ps_advice_lang` VALUES ('7', '1', '<div id=\"wrap_id_advice_532\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"532\" href=\"#advice_content_532\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"532\" href=\"#advice_content_532\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			Mejorar la fidelidad un 5 % aumenta los beneficios en un 25-55 %: fideliza a tus clientes con campañas de email y SMS eficaces		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_532\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				SendinBlue			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/532.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p>SendinBlue es una innovadora solución de envío de correos electrónicos y SMS que te permite:</p>\r\n<p>-Sincronizar automáticamente tus contactos (suscritos y bajas) entre tu sitio web y tu cuentaSendinBlue</p>\r\n<p>-Crear correos estupendos sin conocimientos de HTML</p>\r\n<p>-Seleccionar a tus destinatarios gracias a una potente herramienta de segmentación</p>\r\n<p>-Controlar eficazmente tus correos transaccionales (confirmación de pedidos, envío de paquetes, etc.)</p>\r\n<p>-Optimizar la entregabilidad de tus correos electrónicos</p>\r\n<p>-Realizar un seguimiento de los resultados</p>\r\n<p><span style=\"color: #222222; font-family: arial, sans-serif; font-size: small;\"> </span></p>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\">Anular</a>\n						<a href=\"{link}AdminModules{/link}&install=sendinblue&module_name=sendinblue\" class=\"button success\">Descubre el modulo </a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 532;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
+INSERT INTO `ps_advice_lang` VALUES ('8', '1', '<div id=\"wrap_id_advice_540\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"540\" href=\"#advice_content_540\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"540\" href=\"#advice_content_540\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			Ofrecer recomendaciones personalizadas a tus clientes puede aumentar tu tasa de conversión en un 65 %		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_540\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				Nosto - Personalización para PrestaShop			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/540.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p>¿Sabías que la personalización es una de las formas más eficaces de incrementar las ventas online mediante la conversión? Si personalizas tu tienda online podrás dirigirte a cada cliente individualmente y ofrecerle los productos que más puedan interesarle en cada momento. ¡El valor medio de tu pedido puede subir un 25 % y la tasa de conversión, un 65 %!</p>\r\n<p>Con Nosto podrás:</p>\r\n<ul>\r\n<li>Incrementar el valor medio del pedido con recomendaciones de productos complementarios y productos de gama más alta</li>\r\n<li>Impulsar la tasa de conversión con recomendaciones de productos pertinentes</li>\r\n<li>Aumentar la fidelidad con recomendaciones personalizadas</li>\r\n<li>Aprender más sobre tus clientes mediante un panel de control que ofrece visibilidad en tiempo real</li>\r\n<li>Reducir las tasas de rebote con listas prioritarias</li>\r\n<li>Trabajar con un sistema de configuración sin riesgos y rápido, en el que no pagas si no vendes y sin permanencias</li>\r\n</ul>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=nostotagging&module_name=nostotagging\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 540;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
+INSERT INTO `ps_advice_lang` VALUES ('9', '1', '<div id=\"wrap_id_advice_548\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"548\" href=\"#advice_content_548\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"548\" href=\"#advice_content_548\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			Sube un 25 % el valor medio de los pedidos con recomendaciones de productos complementarios y de gamas más altas		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_548\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				Nosto - Personalización para PrestaShop			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/548.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p><span style=\"font-size: 10pt;\">Nosto te permite mostrar recomendaciones basadas en el comportamiento individual de cada cliente: ¡crea experiencias de compra personalizadas, mejora la conversión y el valor medio del pedido e incrementa la fidelidad del cliente!</span></p>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=nostotagging&module_name=nostotagging\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 548;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
+INSERT INTO `ps_advice_lang` VALUES ('10', '1', '<div id=\"wrap_id_advice_555\" >\n		<section id=\"0_googleapps\" class=\"panel \" style=\"display:none\">\n			<header class=\"panel-heading\">\n				<span class=\"icon-lightbulb\"></span> Consejo del día</header>\n			<div class=\"panel-body\" style=\"padding:0\">\n				<img class=\"img-responsive\" src=\"https://api.prestashop.com/partner/tipsoftheday/img/logo-googleapps.png\" style=\"float:right; margin-left: 5px;\">\n				<img src=\"https://gamification.prestashop.com/api/getAdviceImg/555.png\"/>\n				<p><b>No más quebraderos de cabeza para gestionar archivos!</b></p>\n				<p>Ahorra tiempo colaborando con tu equipo en tiempo real: usa un sistema de comunicación unificado para gestionar los documentos empresariales.</b></p>\n				<span class=\"text-right\" style=\"float:right\">\n					<a class=\"btn btn-default\" target=\"_blank\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=555&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes_ALL%2Fwork%2Fapps%2Fbusiness%2Flanding%2Fpartners%2Freferral%2Ftrial.html%3Futm_source%3Dsign-up%26utm_medium%3Dreferral%26utm_campaign%3Dapps-referral-program%26utm_content%3D8H5VXVU\">Empieza ahora</a>\n				</span>\n			</div>\n		</section>\n		<section id=\"1_googleapps\" class=\"panel \" style=\"display:none\">\n			<header class=\"panel-heading\">\n				<span class=\"icon-lightbulb\"></span> Consejo del día</header>\n			<div class=\"panel-body\" style=\"padding:0\">\n				<img class=\"img-responsive\" src=\"https://api.prestashop.com/partner/tipsoftheday/img/logo-googleapps.png\" style=\"float:right; margin-left: 5px;\">\n				<img src=\"https://gamification.prestashop.com/api/getAdviceImg/555.png\"/>\n				<p><b>Toma decisiones basándote en datos.</b></p>\n				<p>Exporta los datos de tu tienda, crea gráficos y tablas y compártelo todo con tu equipo en segundos.</p>\n				<span class=\"text-right\" style=\"float:right\">\n					<a class=\"btn btn-default\" target=\"_blank\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=555&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes_ALL%2Fwork%2Fapps%2Fbusiness%2Flanding%2Fpartners%2Freferral%2Ftrial.html%3Futm_source%3Dsign-up%26utm_medium%3Dreferral%26utm_campaign%3Dapps-referral-program%26utm_content%3D8H5VXVU\">Empieza ahora</a>\n				</span>\n			</div>\n		</section>\n		<section id=\"2_googleapps\" class=\"panel \" style=\"display:none\">\n			<header class=\"panel-heading\">\n				<span class=\"icon-lightbulb\"></span> Consejo del día</header>\n			<div class=\"panel-body\" style=\"padding:0\">\n				<img class=\"img-responsive\" src=\"https://api.prestashop.com/partner/tipsoftheday/img/logo-googleapps.png\" style=\"float:right; margin-left: 5px;\">\n				<img src=\"https://gamification.prestashop.com/api/getAdviceImg/555.png\"/>\n				<p><b>¡Escucha lo que tus clientes tienen que decir!</b></p>\n				<p>Recoge y analiza las opiniones de tus socios y clientes de un modo sencillo con los formularios de Google: ¡no hace falta que seas un experto en datos!</p>\n				<span class=\"text-right\" style=\"float:right\">\n					<a class=\"btn btn-default\" target=\"_blank\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=555&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fes_ALL%2Fwork%2Fapps%2Fbusiness%2Flanding%2Fpartners%2Freferral%2Ftrial.html%3Futm_source%3Dsign-up%26utm_medium%3Dreferral%26utm_campaign%3Dapps-referral-program%26utm_content%3D8H5VXVU\">Empieza ahora</a>\n				</span>\n			</div>\n		</section>\n			<script>\n			$(document).ready( function () {\n				$(\'#\'+rand(2)+\'_googleapps\').show();\n			});\n\n			function rand(nbr){\n			   return Math.floor(Math.random()*(nbr+1));\n			}\n			</script>\n			</div>');
+INSERT INTO `ps_advice_lang` VALUES ('11', '1', '<div id=\"wrap_id_advice_556\" >\n		<section id=\"0_nosto\" class=\"panel \" style=\"display:none\">\n			<header class=\"panel-heading\">\n				<span class=\"icon-lightbulb\"></span> Consejo del día</header>\n			<div class=\"panel-body\" style=\"padding:0\">\n				<img class=\"img-responsive\" src=\"https://api.prestashop.com/partner/tipsoftheday/img/logo-nosto.png\" style=\"float:right; margin-left: 5px;\">\n				<img src=\"https://gamification.prestashop.com/api/getAdviceImg/556.png\"/>\n				<p><b>¿Sabías que Amazon consigue el 30 % de sus ventas gracias a recomendaciones?</b></p>\n				<p>¿Aumenta tus ventas online mediante la conversión: personaliza tu tienda para sugerir a cada cliente los artículos que más puedan atraerle en cada momento.</p>\n				<span class=\"text-right\" style=\"float:right\">\n					<a class=\"btn btn-default\" target=\"_blank\" href=\"https://gamification.prestashop.com/get_advice_link.php?id_advice=556&url=http%3A%2F%2Faddons.prestashop.com%2Fes%2Fpublicidad-marketing-newsletter-modulos%2F18349-nostotagging.html%3Futm_source%3Dback-office%26utm_medium%3Dtipoftheday%26utm_campaign%3Dpartenariats%26utm_content%3Dnosto\">¿A qué esperas?</a>\n				</span>\n			</div>\n		</section>\n			<script>\n			$(document).ready( function () {\n				$(\'#\'+rand(0)+\'_nosto\').show();\n			});\n\n			function rand(nbr){\n			   return Math.floor(Math.random()*(nbr+1));\n			}\n			</script>\n			</div>');
+INSERT INTO `ps_advice_lang` VALUES ('12', '1', '<div id=\"wrap_id_advice_571\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"571\" href=\"#advice_content_571\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"571\" href=\"#advice_content_571\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			Ofrecer recomendaciones personalizadas a tus clientes puede aumentar tu tasa de conversión hasta un 65%		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_571\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				Nosto - Personalización para PrestaShop			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/571.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p>¿Sabías que personalizar es una de las mejores formas de aumentar las ventas online a través de la conversión? Personaliza tu tienda online y ofrece a cada cliente los artículos que más le apetezca comprar en cada momento: ¡incrementarás el valor medio de los pedidos en un 25% y la tasa de conversión en un 65%!</p>\r\n<p> </p>\r\n<p>Con Nosto podrás:</p>\r\n<p> </p>\r\n<ul>\r\n<li>Incrementar el valor medio del pedido recomendando productos complementarios o de gama más alta</li>\r\n<li>Fomentar las conversiones con recomendaciones pertinentes</li>\r\n<li>Fidelizar gracias a las sugerencias personalizadas</li>\r\n<li>Aprender más sobre tus clientes mediante un panel de control en tiempo real</li>\r\n<li>Reducir la tasa de rebote mediante listas de favoritos</li>\r\n<li>Empezar a trabajar sin riesgos y en dos minutos, con un contrato de \"facturación según ventas\" y sin permanencias obligatorias.</li>\r\n</ul>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=nostotagging&module_name=nostotagging\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 571;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
+INSERT INTO `ps_advice_lang` VALUES ('13', '1', '<div id=\"wrap_id_advice_581\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"581\" href=\"#advice_content_581\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"581\" href=\"#advice_content_581\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			El 40% de los correos se abren y generan clics durante las tres horas posteriores al envío: ¡evalúa tus resultados!		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_581\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				Mailify			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/581.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p>Seis consejos para garantizar el éxito de tu campaña de correo:</p>\r\n<p>- Optimiza tu base de datos de destinatarios</p>\r\n<p>- Utiliza una dirección de envío válida</p>\r\n<p>- Evalúa la tasa de inscripciones y controla los clics</p>\r\n<p>- Integra un vídeo en tu boletín</p>\r\n<p>- Aumenta la tasa de apertura</p>\r\n<p>- Mejora el contenido de tus campañas de email</p>\r\n<p> </p>\r\n<p>Mailify es el programa de referencia para crear, enviar y evaluar tus boletines.</p>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=sarbacanedesktop&module_name=sarbacanedesktop\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 581;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
+INSERT INTO `ps_advice_lang` VALUES ('14', '1', '<div id=\"wrap_id_advice_582\" ><style>\n.hide{display:none}.text-right{text-align:right}.text-left{text-align:left}.text-center{text-align:center}hr.clear{visibility:hidden;margin-bottom:20px}.gamification-tip{width:100%;height:40px;margin:0 0 20px 0;position:relative;line-height:43px;background-color:#f8f8f8;border-bottom:solid 5px #d2d2d2}.gamification-tip div.gamification-tip-title{position:absolute;top:0;left:0;height:40px;width:90px;padding:0 0 0 40px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") 10px 5px no-repeat;color:#556e26;font-size:14px;font-weight:bold}.gamification-tip div.gamification-tip-description-container{height:40px;padding:0 130px 0 130px;display:table-cell;vertical-align:middle;font-size:13px;color:#666666;background:url(\"https://gamification.prestashop.com/images/interface/gamification-tip-bg.png\") 100px top no-repeat}.gamification-tip div.gamification-tip-description-container span.gamification-tip-description{display:inline-block;line-height:15px;max-height:30px;overflow:hidden}.gamification-tip span.gamification-tip-cta{position:absolute;line-height:43px;height:40px;width:70px;top:0;right:0;padding:0 10px 0 30px;border-bottom:solid 5px #739334;background:url(\"https://gamification.prestashop.com/images/interface/gamification-cta-bg.png\") left top no-repeat #a6c964}.gamification-tip span.gamification-tip-cta a{display:inline-block;width:100%;font-size:14px;text-transform:uppercase;font-weight:bold;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;color:#556e26;background:url(\"https://gamification.prestashop.com/images/interface/gamification-popin.png\") right 10px no-repeat}.gamification-tip-infobox{padding:0 20px 20px 20px;position:relative}.gamification-tip-infobox .gamification-tip-infobox-title{display:inline-block;margin:0 0 20px -20px;width:100%;padding:10px 20px 5px;border-bottom:solid 3px #739334;font:800 18px/20px arial;text-transform:uppercase;color:#556e26;background-color:#e7f0d6}.gamification-tip-infobox .gamification-tip-infobox-title span.gamification-tip-infobox-title-prefix{display:inline-block;height:40px;padding-left:30px;line-height:40px;text-transform:none;font-size:16px;font-weight:500;margin-right:10px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-lightbulb.png\") left top no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content{display:block;width:100%}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-image{float:left;width:120px;height:200px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-separator.png\") no-repeat right center}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description{float:left;width:430px;padding:0 0 25px 25px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description p{line-height:20px}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-description ul li{padding:0 0 0 20px;line-height:25px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-bullet-check.png\") left center no-repeat}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls{padding:20px 0 0 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button{display:inline-block;height:30px;padding:0 20px;margin-right:10px;border:none;border-bottom:solid 3px #ababab;line-height:33px;text-transform:uppercase;font-weight:bold;color:#929292;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0;border-radius:3px;background:#d2d2d2}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button.success{color:#384819;background:#a6c964;border-color:#739334;text-shadow:rgba(255, 255, 255, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:hover{color:#f8f8f8;background:#5f5f5f;border-color:#2c2c2c;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox .gamification-tip-infobox-content .gamification-tip-infobox-content-controls a.button:active{color:white;background:#2c2c2c;border-color:black;text-shadow:rgba(0, 0, 0, 0.5) 0 1px 0}.gamification-tip-infobox a.infobox-close{display:inline-block;width:14px;height:14px;position:absolute;top:20px;right:20px;text-indent:-9999px;background:url(\"https://gamification.prestashop.com/images/interface/gamification-infobox-close.png\") no-repeat}\n</style>\n<hr class=\"clear\"/>\n<div id=\"advice-16\">\n<div class=\"gamification-tip\">\n	<div class=\"gamification-tip-title\">Truco</div>\n	<span class=\"gamification-tip-cta\"><a class=\"gamification_fancybox\"  id=\"582\" href=\"#advice_content_582\">Leer</a><a class=\"gamification_close\" style=\"display:none\"  id=\"582\" href=\"#advice_content_582\">Cerrar</a></span>\n\n	<div class=\"gamification-tip-description-container\">\n		<span class=\"gamification-tip-description\">\n			La tasa de apertura de los correos de fidelización es un 20% superior a los de adquisición: ¡juega la baza de la fidelidad!		</span>\n	</div>\n	<div class=\"hide\">\n		<div id=\"advice_content_582\" class=\"gamification-tip-infobox\">\n			<div class=\"gamification-tip-infobox-title\">\n				<span class=\"gamification-tip-infobox-title-prefix\">Truco</span>\n				Mailify			</div>\n			<div class=\"gamification-tip-infobox-content\">\n				<div class=\"gamification-tip-infobox-content-image\">\n					<img src=\"https://gamification.prestashop.com/api/getAdviceImg/582.png\" alt=\"logo\" style=\"max-width: 85%\">\n				</div>\n				<div class=\"gamification-tip-infobox-content-description\">\n					<p>Seis consejos para garantizar el éxito de tu campaña de correo:</p>\r\n<p>- Optimiza tu base de datos de destinatarios</p>\r\n<p>- Utiliza una dirección de envío válida</p>\r\n<p>- Evalúa la tasa de inscripciones y controla los clics</p>\r\n<p>- Integra un vídeo en tu boletín</p>\r\n<p>- Aumenta la tasa de apertura</p>\r\n<p>- Mejora el contenido de tus campañas de email</p>\r\n<p> </p>\r\n<p>Mailify es el programa de referencia para crear, enviar y evaluar tus boletines.</p>					<div class=\"gamification-tip-infobox-content-controls right\">\n						<a href=\"javascript:$.fancybox.close();\" class=\"button\"></a>\n						<a href=\"{link}AdminModules{/link}&install=sarbacanedesktop&module_name=sarbacanedesktop\" class=\"button success\"></a>\n					</div>\n				</div>\n			</div>\n		</div>\n	</div>\n</div>\n</div>\n<script>\n	$(document).ready( function () {\n		$(\'.gamification_fancybox\').bind(\'click\', function () {\n			id_advice = 582;\n			popin_url = \'https://gamification.prestashop.com/get_advice_link.php?id_advice=\'+id_advice+\'&url=\';\n			url = window.location.origin+window.location.pathname.replace(\'index.php\', \'\')+$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\');\n			$(\'.gamification-tip-infobox-content-controls a.success\').attr(\'href\', popin_url+encodeURIComponent(url));\n			\n			$(\'.gamification-tip-infobox\').after(\'<img style=\"display:none\" src=\"https://gamification.prestashop.com/api/getAdvicePopinImg/\'+id_advice+\'.png\" />\');\n			\n		});\n	});\n</script></div>');
 
 -- ----------------------------
 -- Table structure for `ps_alias`
@@ -1052,11 +1080,238 @@ CREATE TABLE `ps_badge` (
   `awb` int(11) DEFAULT '0',
   `validated` tinyint(1) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_badge`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=228 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_badge
 -- ----------------------------
+INSERT INTO `ps_badge` VALUES ('1', '159', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('2', '160', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('3', '161', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('4', '162', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('5', '163', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('6', '164', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('7', '165', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('8', '166', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('9', '233', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('10', '234', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('11', '235', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('12', '236', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('13', '249', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('14', '250', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('15', '251', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('16', '252', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('17', '253', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('18', '254', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('19', '255', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('20', '256', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('21', '261', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('22', '262', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('23', '263', 'feature', '41', '3', '15', '1', '1');
+INSERT INTO `ps_badge` VALUES ('24', '264', 'feature', '41', '4', '20', '1', '1');
+INSERT INTO `ps_badge` VALUES ('25', '269', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('26', '270', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('27', '271', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('28', '272', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('29', '273', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('30', '274', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('31', '275', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('32', '276', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('33', '277', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('34', '278', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('35', '279', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('36', '280', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('37', '281', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('38', '282', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('39', '283', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('40', '284', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('41', '285', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('42', '286', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('43', '287', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('44', '288', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('45', '289', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('46', '290', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('47', '291', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('48', '292', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('49', '293', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('50', '294', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('51', '295', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('52', '296', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('53', '297', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('54', '298', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('55', '299', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('56', '300', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('57', '301', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('58', '302', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('59', '303', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('60', '304', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('61', '305', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('62', '306', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('63', '307', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('64', '308', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('65', '309', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('66', '310', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('67', '311', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('68', '312', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('69', '313', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('70', '314', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('71', '315', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('72', '316', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('73', '317', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('74', '318', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('75', '319', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('76', '320', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('77', '321', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('78', '322', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('79', '323', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('80', '324', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('81', '325', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('82', '326', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('83', '327', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('84', '328', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('85', '329', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('86', '330', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('87', '331', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('88', '332', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('89', '333', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('90', '334', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('91', '335', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('92', '336', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('93', '337', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('94', '338', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('95', '339', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('96', '340', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('97', '341', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('98', '342', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('99', '343', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('100', '344', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('101', '345', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('102', '346', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('103', '347', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('104', '348', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('105', '349', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('106', '350', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('107', '351', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('108', '352', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('109', '353', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('110', '354', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('111', '355', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('112', '356', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('113', '357', 'feature', '41', '1', '5', '1', '0');
+INSERT INTO `ps_badge` VALUES ('114', '358', 'feature', '41', '2', '10', '1', '0');
+INSERT INTO `ps_badge` VALUES ('115', '359', 'feature', '41', '3', '15', '1', '0');
+INSERT INTO `ps_badge` VALUES ('116', '360', 'feature', '41', '4', '20', '1', '0');
+INSERT INTO `ps_badge` VALUES ('117', '1', 'feature', '1', '1', '10', '0', '1');
+INSERT INTO `ps_badge` VALUES ('118', '2', 'feature', '2', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('119', '3', 'feature', '2', '2', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('120', '4', 'feature', '3', '1', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('121', '5', 'feature', '3', '2', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('122', '6', 'feature', '4', '1', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('123', '7', 'feature', '4', '2', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('124', '8', 'feature', '5', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('125', '9', 'feature', '5', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('126', '10', 'feature', '6', '1', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('127', '11', 'feature', '6', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('128', '12', 'feature', '6', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('129', '13', 'feature', '5', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('130', '14', 'feature', '5', '4', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('131', '15', 'feature', '5', '5', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('132', '16', 'feature', '5', '6', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('133', '17', 'achievement', '7', '1', '5', '0', '1');
+INSERT INTO `ps_badge` VALUES ('134', '18', 'achievement', '7', '2', '10', '0', '1');
+INSERT INTO `ps_badge` VALUES ('135', '19', 'feature', '8', '1', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('136', '20', 'feature', '8', '2', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('137', '21', 'feature', '9', '1', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('138', '22', 'feature', '10', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('139', '23', 'feature', '10', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('140', '24', 'feature', '10', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('141', '25', 'feature', '10', '4', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('142', '26', 'feature', '10', '5', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('143', '27', 'feature', '4', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('144', '28', 'feature', '3', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('145', '29', 'achievement', '11', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('146', '30', 'achievement', '11', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('147', '31', 'achievement', '11', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('148', '32', 'achievement', '11', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('149', '33', 'achievement', '11', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('150', '34', 'achievement', '11', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('151', '35', 'achievement', '7', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('152', '36', 'achievement', '7', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('153', '37', 'achievement', '7', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('154', '38', 'achievement', '7', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('155', '39', 'achievement', '12', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('156', '40', 'achievement', '12', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('157', '41', 'achievement', '12', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('158', '42', 'achievement', '12', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('159', '43', 'achievement', '12', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('160', '44', 'achievement', '12', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('161', '45', 'achievement', '13', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('162', '46', 'achievement', '13', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('163', '47', 'achievement', '13', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('164', '48', 'achievement', '13', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('165', '49', 'achievement', '13', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('166', '50', 'achievement', '13', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('167', '51', 'achievement', '14', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('168', '52', 'achievement', '14', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('169', '53', 'achievement', '14', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('170', '54', 'achievement', '14', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('171', '55', 'achievement', '14', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('172', '56', 'achievement', '14', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('173', '57', 'achievement', '15', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('174', '58', 'achievement', '15', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('175', '59', 'achievement', '15', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('176', '60', 'achievement', '15', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('177', '61', 'achievement', '15', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('178', '62', 'achievement', '15', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('179', '63', 'achievement', '16', '1', '5', '0', '1');
+INSERT INTO `ps_badge` VALUES ('180', '64', 'achievement', '16', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('181', '65', 'achievement', '16', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('182', '66', 'achievement', '16', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('183', '67', 'achievement', '16', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('184', '68', 'achievement', '16', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('185', '74', 'international', '22', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('186', '75', 'international', '23', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('187', '76', 'international', '24', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('188', '77', 'international', '25', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('189', '83', 'international', '31', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('190', '85', 'international', '32', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('191', '86', 'international', '33', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('192', '87', 'international', '34', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('193', '88', 'feature', '35', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('194', '89', 'feature', '35', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('195', '90', 'feature', '35', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('196', '91', 'feature', '35', '4', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('197', '92', 'feature', '35', '5', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('198', '93', 'feature', '35', '6', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('199', '94', 'feature', '36', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('200', '95', 'feature', '36', '2', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('201', '96', 'feature', '36', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('202', '97', 'feature', '36', '4', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('203', '98', 'feature', '36', '5', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('204', '99', 'feature', '36', '6', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('205', '100', 'feature', '8', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('206', '101', 'achievement', '37', '1', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('207', '102', 'achievement', '37', '2', '5', '0', '0');
+INSERT INTO `ps_badge` VALUES ('208', '103', 'achievement', '37', '3', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('209', '104', 'achievement', '37', '4', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('210', '105', 'achievement', '37', '5', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('211', '106', 'achievement', '37', '6', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('212', '107', 'achievement', '38', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('213', '108', 'achievement', '38', '2', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('214', '109', 'achievement', '38', '3', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('215', '110', 'achievement', '38', '4', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('216', '111', 'achievement', '38', '5', '25', '0', '0');
+INSERT INTO `ps_badge` VALUES ('217', '112', 'achievement', '38', '6', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('218', '113', 'achievement', '39', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('219', '114', 'achievement', '39', '2', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('220', '115', 'achievement', '39', '3', '30', '0', '0');
+INSERT INTO `ps_badge` VALUES ('221', '116', 'achievement', '39', '4', '40', '0', '0');
+INSERT INTO `ps_badge` VALUES ('222', '117', 'achievement', '39', '5', '50', '0', '0');
+INSERT INTO `ps_badge` VALUES ('223', '118', 'achievement', '39', '6', '50', '0', '0');
+INSERT INTO `ps_badge` VALUES ('224', '119', 'feature', '40', '1', '10', '0', '0');
+INSERT INTO `ps_badge` VALUES ('225', '120', 'feature', '40', '2', '15', '0', '0');
+INSERT INTO `ps_badge` VALUES ('226', '121', 'feature', '40', '3', '20', '0', '0');
+INSERT INTO `ps_badge` VALUES ('227', '122', 'feature', '40', '4', '25', '0', '0');
 
 -- ----------------------------
 -- Table structure for `ps_badge_lang`
@@ -1074,6 +1329,233 @@ CREATE TABLE `ps_badge_lang` (
 -- ----------------------------
 -- Records of ps_badge_lang
 -- ----------------------------
+INSERT INTO `ps_badge_lang` VALUES ('1', '1', 'Shopgate installed', 'You have installed the Shopgate module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('2', '1', 'Shopgate configured', 'You have configured the Shopgate module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('3', '1', 'Shopgate active', 'Your Shopgate module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('4', '1', 'Shopgate very active', 'Your Shopgate module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('5', '1', 'Skrill installed', 'You have installed the Skrill module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('6', '1', 'Skrill configured', 'You have configured the Skrill module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('7', '1', 'Skrill active', 'Your Skrill module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('8', '1', 'Skrill very active', 'Your Skrill module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('9', '1', 'Authorize Aim installed', 'You have installed the Authorize Aim module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('10', '1', 'Authorize Aim configured', 'You have configured the Authorize Aim module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('11', '1', 'Authorize Aim active', 'Your Authorize Aim module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('12', '1', 'Authorize Aim very active', 'Your Authorize Aim module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('13', '1', 'Ebay installed', 'You have installed the Ebay module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('14', '1', 'Ebay configured', 'You have configured the Ebay module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('15', '1', 'Ebay active', 'Your Ebay module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('16', '1', 'Ebay very active', 'Your Ebay module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('17', '1', 'PayPlug installed', 'You have installed the PayPlug module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('18', '1', 'PayPlug configured', 'You have configured the PayPlug module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('19', '1', 'PayPlug active', 'Your PayPlug module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('20', '1', 'PayPlug very active', 'Your PayPlug module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('21', '1', 'Affinity Items installed', 'You have installed the Affinity Items module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('22', '1', 'Affinity Items configured', 'You have configured the Affinity Items module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('23', '1', 'Affinity Items active', 'Your Affinity Items module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('24', '1', 'Affinity Items very active', 'Your Affinity Items module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('25', '1', 'DPD Poland installed', 'You have installed the DPD Poland module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('26', '1', 'DPD Poland configured', 'You have configured the DPD Poland module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('27', '1', 'DPD Poland active', 'Your DPD Poland module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('28', '1', 'DPD Poland very active', 'Your DPD Poland module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('29', '1', 'Envoimoinscher installed', 'You have installed the Envoimoinscher module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('30', '1', 'Envoimoinscher configured', 'You have configured the Envoimoinscher module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('31', '1', 'Envoimoinscher active', 'Your Envoimoinscher module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('32', '1', 'Envoimoinscher very active', 'Your Envoimoinscher module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('33', '1', 'Klik&Pay installed', 'You have installed the Klik&Pay module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('34', '1', 'Klik&Pay configured', 'You have configured the Klik&Pay module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('35', '1', 'Klik&Pay active', 'Your Klik&Pay module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('36', '1', 'Klik&Pay very active', 'Your Klik&Pay module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('37', '1', 'Clickline installed', 'You have installed the Clickline module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('38', '1', 'Clickline configured', 'You have configured the Clickline module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('39', '1', 'Clickline active', 'Your Clickline module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('40', '1', 'Clickline very active', 'Your Clickline module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('41', '1', 'CDiscount installed', 'You have installed the CDiscount module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('42', '1', 'CDiscount configured', 'You have configured the CDiscount module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('43', '1', 'CDiscount active', 'Your CDiscount module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('44', '1', 'CDiscount very active', 'Your CDiscount module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('45', '1', 'illicoPresta installed', 'You have installed the illicoPresta module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('46', '1', 'illicoPresta configured', 'You have configured the illicoPresta module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('47', '1', 'illicoPresta active', 'Your illicoPresta module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('48', '1', 'illicoPresta very active', 'Your illicoPresta module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('49', '1', 'NetReviews installed', 'You have installed the NetReviews module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('50', '1', 'NetReviews configured', 'You have configured the NetReviews module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('51', '1', 'NetReviews active', 'Your NetReviews module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('52', '1', 'NetReviews very active', 'Your NetReviews module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('53', '1', 'Bluesnap installed', 'You have installed the Bluesnap module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('54', '1', 'Bluesnap configured', 'You have configured the Bluesnap module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('55', '1', 'Bluesnap active', 'Your Bluesnap module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('56', '1', 'Bluesnap very active', 'Your Bluesnap module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('57', '1', 'Desjardins installed', 'You have installed the Desjardins module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('58', '1', 'Desjardins configured', 'You have configured the Desjardins module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('59', '1', 'Desjardins active', 'Your Desjardins module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('60', '1', 'Desjardins very active', 'Your Desjardins module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('61', '1', 'First Data installed', 'You have installed the First Data module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('62', '1', 'First Data configured', 'You have configured the First Data module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('63', '1', 'First Data active', 'Your First Data module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('64', '1', 'First Data very active', 'Your First Data module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('65', '1', 'Give.it installed', 'You have installed the Give.it module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('66', '1', 'Give.it configured', 'You have configured the Give.it module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('67', '1', 'Give.it active', 'Your Give.it module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('68', '1', 'Give.it very active', 'Your Give.it module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('69', '1', 'Google Analytics installed', 'You have installed the Google Analytics module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('70', '1', 'Google Analytics configured', 'You have configured the Google Analytics module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('71', '1', 'Google Analytics active', 'Your Google Analytics module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('72', '1', 'Google Analytics very active', 'Your Google Analytics module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('73', '1', 'PagSeguro installed', 'You have installed the PagSeguro module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('74', '1', 'PagSeguro configured', 'You have configured the PagSeguro module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('75', '1', 'PagSeguro active', 'Your PagSeguro module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('76', '1', 'PagSeguro very active', 'Your PagSeguro module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('77', '1', 'Paypal MX installed', 'You have installed the Paypal MX module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('78', '1', 'Paypal MX configured', 'You have configured the Paypal MX module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('79', '1', 'Paypal MX active', 'Your Paypal MX module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('80', '1', 'Paypal MX very active', 'Your Paypal MX module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('81', '1', 'Paypal USA installed', 'You have installed the Paypal USA module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('82', '1', 'Paypal USA configured', 'You have configured the Paypal USA module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('83', '1', 'Paypal USA active', 'Your Paypal USA module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('84', '1', 'Paypal USA very active', 'Your Paypal USA module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('85', '1', 'PayULatam installed', 'You have installed the PayULatam module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('86', '1', 'PayULatam configured', 'You have configured the PayULatam module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('87', '1', 'PayULatam active', 'Your PayULatam module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('88', '1', 'PayULatam very active', 'Your PayULatam module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('89', '1', 'PrestaStats installed', 'You have installed the PrestaStats module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('90', '1', 'PrestaStats configured', 'You have configured the PrestaStats module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('91', '1', 'PrestaStats active', 'Your PrestaStats module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('92', '1', 'PrestaStats very active', 'Your PrestaStats module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('93', '1', 'Riskified installed', 'You have installed the Riskified module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('94', '1', 'Riskified configured', 'You have configured the Riskified module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('95', '1', 'Riskified active', 'Your Riskified module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('96', '1', 'Riskified very active', 'Your Riskified module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('97', '1', 'Simplify installed', 'You have installed the Simplify module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('98', '1', 'Simplify configured', 'You have configured the Simplify module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('99', '1', 'Simplify active', 'Your Simplify module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('100', '1', 'Simplify very active', 'Your Simplify module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('101', '1', 'VTPayment installed', 'You have installed the VTPayment module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('102', '1', 'VTPayment configured', 'You have configured the VTPayment module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('103', '1', 'VTPayment active', 'Your VTPayment module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('104', '1', 'VTPayment very active', 'Your VTPayment module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('105', '1', 'Yotpo installed', 'You have installed the Yotpo module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('106', '1', 'Yotpo configured', 'You have configured the Yotpo module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('107', '1', 'Yotpo active', 'Your Yotpo module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('108', '1', 'Yotpo very active', 'Your Yotpo module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('109', '1', 'Youstice installed', 'You have installed the Youstice module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('110', '1', 'Youstice configured', 'You have configured the Youstice module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('111', '1', 'Youstice active', 'Your Youstice module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('112', '1', 'Youstice very active', 'Your Youstice module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('113', '1', 'Loyalty Lion installed', 'You have installed the Loyalty Lion module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('114', '1', 'Loyalty Lion configured', 'You have configured the Loyalty Lion module', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('115', '1', 'Loyalty Lion active', 'Your Loyalty Lion module is active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('116', '1', 'Loyalty Lion very active', 'Your Loyalty Lion module is very active', 'Partners');
+INSERT INTO `ps_badge_lang` VALUES ('117', '1', 'SEO', 'You enabled the URL rewriting through the tab \"Preferences > SEO and URLs\".', 'SEO');
+INSERT INTO `ps_badge_lang` VALUES ('118', '1', 'Site Performance', 'You enabled CCC (Combine, Compress and Cache), Rijndael and Smarty through the tab \r\nAdvanced Parameters > Performance.', 'Site Performance');
+INSERT INTO `ps_badge_lang` VALUES ('119', '1', 'Site Performance', 'You enabled media servers through the tab \"Advanced parameters > Performance\".', 'Site Performance');
+INSERT INTO `ps_badge_lang` VALUES ('120', '1', 'Payment', 'You configured a payment solution on your shop.', 'Payment');
+INSERT INTO `ps_badge_lang` VALUES ('121', '1', 'Payment', 'You offer two different payment methods to your customers.', 'Payment');
+INSERT INTO `ps_badge_lang` VALUES ('122', '1', 'Shipping', 'You configured a carrier on your shop.', 'Shipping');
+INSERT INTO `ps_badge_lang` VALUES ('123', '1', 'Shipping', 'You offer two shipping solutions (carriers) to your customers.', 'Shipping');
+INSERT INTO `ps_badge_lang` VALUES ('124', '1', 'Catalog Size', 'You added your first product to your catalog!', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('125', '1', 'Catalog Size', 'You have 10 products within your catalog.', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('126', '1', 'Contact information', 'You configured your phone number so your customers can reach you!', 'Contact information');
+INSERT INTO `ps_badge_lang` VALUES ('127', '1', 'Contact information', 'You added a third email address to your contact form.', 'Contact information');
+INSERT INTO `ps_badge_lang` VALUES ('128', '1', 'Contact information', 'You suggest a total of 5 departments to be reached by your customers via your contact form.', 'Contact information');
+INSERT INTO `ps_badge_lang` VALUES ('129', '1', 'Catalog Size', 'You have 100 products within your catalog.', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('130', '1', 'Catalog Size', 'You have 1,000 products within your catalog.', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('131', '1', 'Catalog Size', 'You have 10,000 products within your catalog.', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('132', '1', 'Catalog Size', 'You have 100,000 products within your catalog.', 'Catalog Size');
+INSERT INTO `ps_badge_lang` VALUES ('133', '1', 'Days of Experience', 'You just installed PrestaShop!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('134', '1', 'Days of Experience', 'You installed PrestaShop a week ago!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('135', '1', 'Customization', 'You uploaded your own logo.', 'Customization');
+INSERT INTO `ps_badge_lang` VALUES ('136', '1', 'Customization', 'You installed a new template.', 'Customization');
+INSERT INTO `ps_badge_lang` VALUES ('137', '1', 'Addons', 'You connected your back-office to the Addons platform using your PrestaShop Addons account.', 'Addons');
+INSERT INTO `ps_badge_lang` VALUES ('138', '1', 'Multistores', 'You enabled the Multistores feature.', 'Multistores');
+INSERT INTO `ps_badge_lang` VALUES ('139', '1', 'Multistores', 'You manage two shops with the Multistores feature.', 'Multistores');
+INSERT INTO `ps_badge_lang` VALUES ('140', '1', 'Multistores', 'You manage two different groups of shops using the Multistores feature.', 'Multistores');
+INSERT INTO `ps_badge_lang` VALUES ('141', '1', 'Multistores', 'You manage five shops with the Multistores feature.', 'Multistores');
+INSERT INTO `ps_badge_lang` VALUES ('142', '1', 'Multistores', 'You manage five different groups of shops using the Multistores feature.', 'Multistores');
+INSERT INTO `ps_badge_lang` VALUES ('143', '1', 'Shipping', 'You offer three different shipping solutions (carriers) to your customers.', 'Shipping');
+INSERT INTO `ps_badge_lang` VALUES ('144', '1', 'Payment', 'You offer three different payment methods to your customers.', 'Payment');
+INSERT INTO `ps_badge_lang` VALUES ('145', '1', 'Revenue', 'You get this badge when you reach 900 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('146', '1', 'Revenue', 'You get this badge when you reach 1000 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('147', '1', 'Revenue', 'You get this badge when you reach 1000 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('148', '1', 'Revenue', 'You get this badge when you reach 900 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('149', '1', 'Revenue', 'You get this badge when you reach 1000 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('150', '1', 'Revenue', 'You get this badge when you reach 1000 VEF in sales.', 'Revenue');
+INSERT INTO `ps_badge_lang` VALUES ('151', '1', 'Days of Experience', 'You installed PrestaShop a month ago!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('152', '1', 'Days of Experience', 'You installed PrestaShop six months ago!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('153', '1', 'Days of Experience', 'You installed PrestaShop a year ago!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('154', '1', 'Days of Experience', 'You installed PrestaShop two years ago!', 'Days of Experience');
+INSERT INTO `ps_badge_lang` VALUES ('155', '1', 'Visitors', 'You reached 10 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('156', '1', 'Visitors', 'You reached 100 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('157', '1', 'Visitors', 'You reached 1,000 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('158', '1', 'Visitors', 'You reached 10,000 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('159', '1', 'Visitors', 'You reached 100,000 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('160', '1', 'Visitors', 'You reached 1,000,000 visitors!', 'Visitors');
+INSERT INTO `ps_badge_lang` VALUES ('161', '1', 'Customer Carts', 'Two carts have been created by visitors', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('162', '1', 'Customer Carts', 'Ten carts have been created by visitors.', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('163', '1', 'Customer Carts', 'A hundred carts have been created by visitors on your shop.', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('164', '1', 'Customer Carts', 'A thousand carts have been created by visitors on your shop.', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('165', '1', 'Customer Carts', '10,000 carts have been created by visitors.', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('166', '1', 'Customer Carts', '100,000 carts have been created by visitors.', 'Customer Carts');
+INSERT INTO `ps_badge_lang` VALUES ('167', '1', 'Orders', 'You received your first order.', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('168', '1', 'Orders', '10 orders have been placed through your online shop.', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('169', '1', 'Orders', 'You received 100 orders through your online shop!', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('170', '1', 'Orders', 'You received 1,000 orders through your online shop, congrats!', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('171', '1', 'Orders', 'You received 10,000 orders through your online shop, cheers!', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('172', '1', 'Orders', 'You received 100,000 orders through your online shop!', 'Orders');
+INSERT INTO `ps_badge_lang` VALUES ('173', '1', 'Customer Service Threads', 'You received  your first customer\'s message.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('174', '1', 'Customer Service Threads', 'You received 10 messages from your customers.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('175', '1', 'Customer Service Threads', 'You received 100 messages from your customers.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('176', '1', 'Customer Service Threads', 'You received 1,000 messages from your customers.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('177', '1', 'Customer Service Threads', 'You received 10,000 messages from your customers.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('178', '1', 'Customer Service Threads', 'You received 100,000 messages from your customers.', 'Customer Service Threads');
+INSERT INTO `ps_badge_lang` VALUES ('179', '1', 'Customers', 'You got the first customer registered on your shop!', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('180', '1', 'Customers', 'You have over 10 customers registered on your shop.', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('181', '1', 'Customers', 'You have over 100 customers registered on your shop.', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('182', '1', 'Customers', 'You have over 1,000 customers registered on your shop.', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('183', '1', 'Customers', 'You have over 10,000 customers registered on your shop.', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('184', '1', 'Customers', 'You have over 100,000 customers registered on your shop.', 'Customers');
+INSERT INTO `ps_badge_lang` VALUES ('185', '1', 'North America', 'You got your first sale in North America', 'North America');
+INSERT INTO `ps_badge_lang` VALUES ('186', '1', 'Oceania', 'You got your first sale in Oceania', 'Oceania');
+INSERT INTO `ps_badge_lang` VALUES ('187', '1', 'Central America', 'You got your first sale in Central America', 'Central America');
+INSERT INTO `ps_badge_lang` VALUES ('188', '1', 'South America', 'You got your first sale in South America', 'South America');
+INSERT INTO `ps_badge_lang` VALUES ('189', '1', 'Asia', 'You got your first sale in Asia', 'Asia');
+INSERT INTO `ps_badge_lang` VALUES ('190', '1', 'Europe', 'You got your first sale in  Europe!', 'Europe');
+INSERT INTO `ps_badge_lang` VALUES ('191', '1', 'Africa', 'You got your first sale in Africa', 'Africa');
+INSERT INTO `ps_badge_lang` VALUES ('192', '1', 'Maghreb', 'You got your first sale in Maghreb', 'Maghreb');
+INSERT INTO `ps_badge_lang` VALUES ('193', '1', 'Your Team\'s Employees', 'First employee account added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('194', '1', 'Your Team\'s Employees', '3 employee accounts added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('195', '1', 'Your Team\'s Employees', '5 employee accounts added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('196', '1', 'Your Team\'s Employees', '10 employee accounts added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('197', '1', 'Your Team\'s Employees', '20 employee accounts added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('198', '1', 'Your Team\'s Employees', '40 employee accounts added to your shop', 'Your Team\'s Employees');
+INSERT INTO `ps_badge_lang` VALUES ('199', '1', 'Product Pictures', 'First photo added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('200', '1', 'Product Pictures', '50 photos added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('201', '1', 'Product Pictures', '100 photos added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('202', '1', 'Product Pictures', '1,000 photos added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('203', '1', 'Product Pictures', '10,000 photos added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('204', '1', 'Product Pictures', '50,000 photos added to your catalog', 'Product Pictures');
+INSERT INTO `ps_badge_lang` VALUES ('205', '1', 'Customization', 'First CMS page added to your catalog', 'Customization');
+INSERT INTO `ps_badge_lang` VALUES ('206', '1', 'Cart Rules', 'First cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('207', '1', 'Cart Rules', 'You have 10 cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('208', '1', 'Cart Rules', 'You have 100 cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('209', '1', 'Cart Rules', 'You have 500 cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('210', '1', 'Cart Rules', 'You have 1,000 cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('211', '1', 'Cart Rules', 'You have 5,000 cart rules configured on your shop', 'Cart Rules');
+INSERT INTO `ps_badge_lang` VALUES ('212', '1', 'International Orders', 'First international order placed on your shop.', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('213', '1', 'International Orders', '10 international orders placed on your shop.', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('214', '1', 'International Orders', '100 international orders placed on your shop!', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('215', '1', 'International Orders', '1,000 international orders placed on your shop!', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('216', '1', 'International Orders', '5,000 international orders placed on your shop!', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('217', '1', 'International Orders', '10,000 international orders placed on your shop!', 'International Orders');
+INSERT INTO `ps_badge_lang` VALUES ('218', '1', 'Store', 'First store configured on your shop!', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('219', '1', 'Store', 'You have 2 stores configured on your shop', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('220', '1', 'Store', 'You have 5 stores configured on your shop', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('221', '1', 'Store', 'You have 10 stores configured on your shop', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('222', '1', 'Store', 'You have 20 stores configured on your shop', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('223', '1', 'Store', 'You have 50 stores configured on your shop', 'Store');
+INSERT INTO `ps_badge_lang` VALUES ('224', '1', 'Webservice x1', 'First webservice account added to your shop', 'WebService');
+INSERT INTO `ps_badge_lang` VALUES ('225', '1', 'Webservice x2', '2 webservice accounts added to your shop', 'WebService');
+INSERT INTO `ps_badge_lang` VALUES ('226', '1', 'Webservice x3', '3 webservice accounts added to your shop', 'WebService');
+INSERT INTO `ps_badge_lang` VALUES ('227', '1', 'Webservice x4', '4 webservice accounts added to your shop', 'WebService');
 
 -- ----------------------------
 -- Table structure for `ps_carrier`
@@ -1235,7 +1717,7 @@ CREATE TABLE `ps_cart` (
   KEY `id_guest` (`id_guest`),
   KEY `id_shop_group` (`id_shop_group`),
   KEY `id_shop` (`id_shop`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_cart
@@ -1245,6 +1727,7 @@ INSERT INTO `ps_cart` VALUES ('2', '1', '1', '2', 'a:1:{i:3;s:2:\"2,\";}', '1', 
 INSERT INTO `ps_cart` VALUES ('3', '1', '1', '2', 'a:1:{i:3;s:2:\"2,\";}', '1', '4', '4', '1', '1', '1', 'b44a6d9efd7a0076a0fbce6b15eaf3b1', '0', '0', '', '0', '0', '2015-05-03 22:02:59', '2015-05-03 22:02:59');
 INSERT INTO `ps_cart` VALUES ('4', '1', '1', '2', 'a:1:{i:3;s:2:\"2,\";}', '1', '4', '4', '1', '1', '1', 'b44a6d9efd7a0076a0fbce6b15eaf3b1', '0', '0', '', '0', '0', '2015-05-03 22:02:59', '2015-05-03 22:02:59');
 INSERT INTO `ps_cart` VALUES ('5', '1', '1', '2', 'a:1:{i:3;s:2:\"2,\";}', '1', '4', '4', '1', '1', '1', 'b44a6d9efd7a0076a0fbce6b15eaf3b1', '0', '0', '', '0', '0', '2015-05-03 22:02:59', '2015-05-03 22:02:59');
+INSERT INTO `ps_cart` VALUES ('6', '1', '1', '0', '', '1', '0', '0', '1', '0', '2', '', '0', '0', '', '0', '0', '2015-05-05 15:04:40', '2015-05-05 15:07:10');
 
 -- ----------------------------
 -- Table structure for `ps_cart_cart_rule`
@@ -1906,11 +2389,242 @@ CREATE TABLE `ps_condition` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id_condition`,`id_ps_condition`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=232 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_condition
 -- ----------------------------
+INSERT INTO `ps_condition` VALUES ('1', '159', 'install', '', '<=', '90', '1', 'time', '2', '1', '2015-05-16 15:28:06', '2015-05-16 15:29:19');
+INSERT INTO `ps_condition` VALUES ('2', '158', 'install', '', '>=', '90', '', 'time', '2', '0', '2015-05-16 15:28:06', '2015-05-16 15:29:19');
+INSERT INTO `ps_condition` VALUES ('3', '19', 'install', '', '>', '0', '1', 'time', '1', '1', '2015-05-16 15:28:06', '2015-05-16 15:28:56');
+INSERT INTO `ps_condition` VALUES ('4', '40', 'install', '', '>=', '730', '', 'time', '2', '0', '2015-05-16 15:28:06', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('5', '55', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100', '0', 'hook', 'actionObjectOrderAddAfter', '0', '2015-05-16 15:28:06', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('6', '12', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:06', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('7', '39', 'install', '', '>=', '365', '', 'time', '2', '0', '2015-05-16 15:28:06', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('8', '1', 'configuration', 'PS_REWRITING_SETTINGS', '==', '1', '1', 'hook', 'actionAdminMetaControllerUpdate_optionsAfter', '1', '2015-05-16 15:28:06', '2015-05-16 15:28:56');
+INSERT INTO `ps_condition` VALUES ('9', '2', 'configuration', 'PS_SMARTY_FORCE_COMPILE', '!=', '2', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', '1', '2015-05-16 15:28:06', '2015-05-16 15:28:56');
+INSERT INTO `ps_condition` VALUES ('10', '3', 'configuration', 'PS_CSS_THEME_CACHE', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', '0', '2015-05-16 15:28:06', '2015-05-16 15:28:56');
+INSERT INTO `ps_condition` VALUES ('11', '4', 'configuration', 'PS_CIPHER_ALGORITHM', '==', '1', '1', 'hook', 'actionAdminPerformanceControllerSaveAfter', '1', '2015-05-16 15:28:07', '2015-05-16 15:28:56');
+INSERT INTO `ps_condition` VALUES ('12', '5', 'configuration', 'PS_MEDIA_SERVERS', '==', '1', '', 'hook', 'actionAdminPerformanceControllerSaveAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('13', '6', 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '0', '0', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('14', '7', 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '1', '0', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('15', '8', 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '0', '0', 'hook', 'actionObjectCarrierAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('16', '9', 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '1', '0', 'hook', 'actionObjectCarrierAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('17', '10', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '0', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('18', '11', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('19', '16', 'configuration', 'PS_SHOP_PHONE', '!=', '0', '', 'hook', 'actionAdminStoresControllerUpdate_optionsAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('20', '17', 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '2', '2', 'hook', 'actionObjectContactAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('21', '18', 'sql', 'SELECT COUNT(*) FROM PREFIX_contact', '>', '4', '2', 'hook', 'actionObjectContactAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('22', '13', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '999', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:04');
+INSERT INTO `ps_condition` VALUES ('23', '14', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '9999', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('24', '15', 'sql', 'SELECT COUNT(*) FROM PREFIX_product WHERE reference NOT LIKE \"demo_%\"', '>', '99999', '0', 'hook', 'actionObjectProductAddAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('25', '20', 'install', '', '>=', '7', '1', 'time', '1', '1', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('26', '21', 'configuration', 'PS_LOGO', '!=', 'logo.jpg', '', 'hook', 'actionAdminThemesControllerUpdate_optionsAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('27', '22', 'sql', 'SELECT COUNT(*) FROM PREFIX_theme WHERE directory != \"default\" AND directory != \"prestashop\" AND directory ! \"default-bootstrap\"', '>', '0', '0', 'hook', 'actionObjectShopUpdateAfter', '0', '2015-05-16 15:28:07', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('28', '23', 'configuration', 'PS_LOGGED_ON_ADDONS', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:07', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('29', '24', 'configuration', 'PS_MULTISHOP_FEATURE_ACTIVE', '==', '1', '', 'hook', 'actionAdminPreferencesControllerUpdate_optionsAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:44:24');
+INSERT INTO `ps_condition` VALUES ('30', '25', 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '1', '1', 'hook', 'actionObjectShopAddAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('31', '28', 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '1', '1', 'hook', 'actionObjectShopGroupAddAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('32', '26', 'sql', 'SELECT COUNT(*) FROM PREFIX_shop', '>', '4', '1', 'hook', 'actionObjectShopAddAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:04');
+INSERT INTO `ps_condition` VALUES ('33', '27', 'sql', 'SELECT COUNT(*) FROM PREFIX_shop_group', '>', '5', '1', 'hook', 'actionObjectShopGroupAddAfter 	', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('34', '30', 'sql', 'SELECT COUNT(*) FROM PREFIX_carrier WHERE name NOT IN (\"0\", \"My carrier\")', '>', '2', '0', 'hook', 'actionObjectCarrierAddAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('35', '29', 'sql', 'SELECT COUNT(distinct m.id_module) FROM PREFIX_hook h LEFT JOIN PREFIX_hook_module hm ON h.id_hook = hm.id_hook LEFT JOIN PREFIX_module m ON hm.id_module = m.id_module\r\nWHERE (h.name = \"displayPayment\" OR h.name = \"payment\") AND m.name NOT IN (\"bankwire\", \"cheque\", \"cashondelivery\")', '>', '2', '0', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('36', '31', 'sql', 'SELECT SUM(total_paid_tax_excl / c.conversion_rate)\r\nFROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '900', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:08', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('37', '32', 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '9000', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('38', '33', 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1 AND reference != \"XKBKNABJK\"', '>=', '90000', '0', 'time', '1', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('39', '34', 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '900000', '0', 'time', '7', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:04');
+INSERT INTO `ps_condition` VALUES ('40', '35', 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '9000000', '0', 'time', '7', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('41', '36', 'sql', ' 	SELECT SUM(total_paid_tax_excl / c.conversion_rate) FROM PREFIX_orders o INNER JOIN PREFIX_currency c ON c.id_currency = o.id_currency WHERE valid = 1', '>=', '90000000', '0', 'time', '7', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('42', '37', 'install', '', '>=', '30', '', 'time', '1', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:28');
+INSERT INTO `ps_condition` VALUES ('43', '38', 'install', '', '>=', '182', '', 'time', '2', '0', '2015-05-16 15:28:08', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('44', '41', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10', '4', 'time', '1', '0', '2015-05-16 15:28:08', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('45', '42', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100', '4', 'time', '1', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('46', '43', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000', '4', 'time', '1', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('47', '44', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '10000', '4', 'time', '2', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('48', '45', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '100000', '4', 'time', '3', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('49', '46', 'sql', 'SELECT COUNT(*) FROM PREFIX_guest', '>=', '1000000', '4', 'time', '4', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('50', '47', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '2', '1', 'hook', 'actionObjectCartAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('51', '48', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10', '1', 'hook', 'actionObjectCartAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('52', '49', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100', '1', 'hook', 'actionObjectCartAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('53', '50', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '1000', '1', 'time', '1', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('54', '51', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '10000', '1', 'time', '4', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('55', '52', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart WHERE secure_key != \"b44a6d9efd7a0076a0fbce6b15eaf3b1\"', '>=', '100000', '1', 'time', '8', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('56', '53', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1', '0', 'hook', 'actionObjectOrderAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('57', '54', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10', '0', 'hook', 'actionObjectOrderAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('58', '56', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '1000', '0', 'time', '2', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('59', '57', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '10000', '0', 'time', '4', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('60', '58', 'sql', 'SELECT COUNT(*) FROM ps_orders WHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\")', '>=', '100000', '0', 'time', '8', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('61', '65', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1', '0', 'hook', 'actionObjectCustomerThreadAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:28:57');
+INSERT INTO `ps_condition` VALUES ('62', '66', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10', '0', 'hook', 'actionObjectCustomerThreadAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('63', '67', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100', '0', 'hook', 'actionObjectCustomerThreadAddAfter', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('64', '68', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '1000', '0', 'time', '2', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('65', '69', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '10000', '0', 'time', '4', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('66', '70', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer_thread', '>=', '100000', '0', 'time', '8', '0', '2015-05-16 15:28:09', '2015-05-16 15:29:08');
+INSERT INTO `ps_condition` VALUES ('67', '59', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1', '1', 'hook', 'actionObjectCustomerAddAfter', '1', '2015-05-16 15:28:09', '2015-05-16 15:28:58');
+INSERT INTO `ps_condition` VALUES ('68', '60', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10', '1', 'hook', 'actionObjectCustomerAddAfter', '0', '2015-05-16 15:28:10', '2015-05-16 15:29:29');
+INSERT INTO `ps_condition` VALUES ('69', '61', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100', '1', 'hook', 'actionObjectCustomerAddAfter', '0', '2015-05-16 15:28:10', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('70', '62', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '1000', '1', 'time', '1', '0', '2015-05-16 15:28:10', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('71', '63', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '10000', '1', 'time', '2', '0', '2015-05-16 15:28:10', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('72', '64', 'sql', 'SELECT COUNT(*) FROM PREFIX_customer WHERE email != \"pub@prestashop.com\"', '>=', '100000', '1', 'time', '4', '0', '2015-05-16 15:28:10', '2015-05-16 15:29:08');
+INSERT INTO `ps_condition` VALUES ('73', '76', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"CA\",\r\n\"GL\",\r\n\"PM\",\r\n\"US\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:58');
+INSERT INTO `ps_condition` VALUES ('74', '79', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"UM\",\r\n\"AS\",\r\n\"AU\",\r\n\"CK\",\r\n\"FJ\",\r\n\"FM\",\r\n\"GU\",\r\n\"KI\",\r\n\"MH,\"\r\n\"MP\",\r\n\"NC\",\r\n\"NF\",\r\n\"NR\",\r\n\"NU\",\r\n\"NZ\",\r\n\"PF\",\r\n\"PG\",\r\n\"PN\",\r\n\"PW\",\r\n\"SB\",\r\n\"TK\",\r\n\"TO\",\r\n\"TV\",\r\n\"VU\",\r\n\"WF\",\r\n\"WS\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:58');
+INSERT INTO `ps_condition` VALUES ('75', '77', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BZ\",\r\n\"CR\",\r\n\"GT\",\r\n\"HN\",\r\n\"MX\",\r\n\"NI\",\r\n\"PA\",\r\n\"SV\",\r\n\"AG\",\r\n\"AI\",\r\n\"AN\",\r\n\"AW\",\r\n\"BB\",\r\n\"BM\",\r\n\"BS\",\r\n\"CU\",\r\n\"DM\",\r\n\"DO\",\r\n\"GD\",\r\n\"GP\",\r\n\"HT\",\r\n\"JM\",\r\n\"KN\",\r\n\"KY\",\r\n\"LC\",\r\n\"MQ\",\r\n\"MS\",\r\n\"PR\",\r\n\"TC\",\r\n\"TT\",\r\n\"VC\",\r\n\"VG\",\r\n\"VI\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:58');
+INSERT INTO `ps_condition` VALUES ('76', '78', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"AR\",\r\n\"BO\",\r\n\"BR\",\r\n\"CL\",\r\n\"CO\",\r\n\"EC\",\r\n\"FK\",\r\n\"GF\",\r\n\"GY\",\r\n\"PE\",\r\n\"PY\",\r\n\"SR\",\r\n\"UY\",\r\n\"VE\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('77', '85', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"KG\",\r\n\"KZ\",\r\n\"TJ\",\r\n\"TM\",\r\n\"UZ\",\r\n\"AE\",\r\n\"AM\",\r\n\"AZ\",\r\n\"BH\",\r\n\"CY\",\r\n\"GE\",\r\n\"IL\",\r\n\"IQ\",\r\n\"IR\",\r\n\"JO\",\r\n\"KW\",\r\n\"LB\",\r\n\"OM\",\r\n\"QA\",\r\n\"SA\",\r\n\"SY\",\r\n\"TR\",\r\n\"YE\",\r\n\"AF\",\r\n\"BD\",\r\n\"BT\",\r\n\"IN\",\r\n\"IO\",\r\n\"LK\",\r\n\"MV\",\r\n\"NP\",\r\n\"PK\",\r\n\"CN\",\r\n\"HK\",\r\n\"JP\",\r\n\"KP\",\r\n\"KR\",\r\n\"MO\",\r\n\"TW\",\r\n\"MN\",\r\n\"BN\",\r\n\"CC\",\r\n\"CX\",\r\n\"ID\",\r\n\"KH\",\r\n\"LA\",\r\n\"MM\",\r\n\"MY\",\r\n\"PH\",\r\n\"SG\",\r\n\"TH\",\r\n\"TP\",\r\n\"VN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('78', '87', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BE\",\r\n\"DE\",\r\n\"FR\",\r\n\"FX\",\r\n\"GB\",\r\n\"IE\",\r\n\"LU\",\r\n\"MC\",\r\n\"NL\",\r\n\"IT\",\r\n\"MT\",\r\n\"SM\",\r\n\"VA\",\r\n\"AD\",\r\n\"ES\",\r\n\"GI\",\r\n\"PT\",\r\n\"BY\",\r\n\"EE\",\r\n\"LT\",\r\n\"LV\",\r\n\"MD\",\r\n\"PL\",\r\n\"UA\",\r\n\"AL\",\r\n\"BA\",\r\n\"BG\",\r\n\"GR\",\r\n\"HR\",\r\n\"MK\",\r\n\"RO\",\r\n\"SI\",\r\n\"YU\",\r\n\"RU\",\r\n\"AT\",\r\n\"CH\",\r\n\"CZ\",\r\n\"HU\",\r\n\"LI\",\r\n\"SK\",\r\n\"DK\",\r\n\"FI\",\r\n\"FO\",\r\n\"IS\",\r\n\"NO\",\r\n\"SE\",\r\n\"SJ\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('79', '88', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"BI\",\r\n\"CF\",\r\n\"CG\",\r\n\"RW\",\r\n\"TD\",\r\n\"ZR\",\r\n\"DJ\",\r\n\"ER\",\r\n\"ET\",\r\n\"KE\",\r\n\"SO\",\r\n\"TZ\",\r\n\"UG\",\r\n\"KM\",\r\n\"MG\",\r\n\"MU\",\r\n\"RE\",\r\n\"SC\",\r\n\"YT\",\r\n\"AO\",\r\n\"BW\",\r\n\"LS\",\r\n\"MW\",\r\n\"MZ\",\r\n\"NA\",\r\n\"SZ\",\r\n\"ZA\",\r\n\"ZM\",\r\n\"ZW\",\r\n\"BF\",\r\n\"BJ\",\r\n\"CI\",\r\n\"CM\",\r\n\"CV\",\r\n\"GA\",\r\n\"GH\",\r\n\"GM\",\r\n\"GN\",\r\n\"GQ\",\r\n\"GW\",\r\n\"LR\",\r\n\"ML\",\r\n\"MR\",\r\n\"NE\",\r\n\"NG\",\r\n\"SL\",\r\n\"SN\",\r\n\"ST\",\r\n\"TG\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('80', '89', 'sql', 'SELECT IFNULL(id_order, 0) FROM PREFIX_orders o LEFT JOIN PREFIX_address a ON o.id_address_delivery = a.id_address LEFT JOIN PREFIX_country c ON c.id_country = a.id_country WHERE o.valid = 1 AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\" AND c.iso_code IN (\r\n\"DZ\",\r\n\"EG\",\r\n\"EH\",\r\n\"LY\",\r\n\"MA\",\r\n\"SD\",\r\n\"TN\"\r\n)', '!=', '0', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('81', '90', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '2', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:10', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('82', '91', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '3', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('83', '92', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '5', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('84', '93', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '10', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('85', '94', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '20', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('86', '95', 'sql', 'SELECT COUNT(*) FROM PREFIX_employee', '>=', '40', '1', 'hook', 'actionObjectEmployeeAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:08');
+INSERT INTO `ps_condition` VALUES ('87', '96', 'sql', 'SELECT id_image FROM PREFIX_image WHERE id_image > 26', '>', '0', '0', 'hook', 'actionObjectImageAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('88', '97', 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50', '23', 'hook', 'actionObjectImageAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('89', '98', 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '100', '23', 'hook', 'actionObjectImageAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('90', '99', 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '1000', '23', 'time', '2', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('91', '100', 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '10000', '23', 'time', '4', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('92', '101', 'sql', 'SELECT COUNT(*) FROM PREFIX_image', '>=', '50000', '23', 'time', '8', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:08');
+INSERT INTO `ps_condition` VALUES ('93', '102', 'sql', 'SELECT id_cms FROM PREFIX_cms WHERE id_cms > 5', '>', '0', '0', 'hook', 'actionObjectCMSAddAfter', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('94', '103', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('95', '104', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '10', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('96', '105', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '100', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('97', '107', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '500', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('98', '106', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '1000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('99', '108', 'sql', 'SELECT COUNT(*) FROM PREFIX_cart_rule', '>=', '5000', '0', 'hook', 'actionObjectCartRuleAddAfter 	', '0', '2015-05-16 15:28:11', '2015-05-16 15:29:08');
+INSERT INTO `ps_condition` VALUES ('100', '109', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1', '0', 'hook', 'newOrder', '0', '2015-05-16 15:28:11', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('101', '110', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('102', '111', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '100', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('103', '113', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '1000', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('104', '114', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '5000', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('105', '112', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o INNER JOIN PREFIX_address a ON a.id_address = o.id_address_delivery\r\nWHERE reference NOT IN (\"XKBKNABJK\", \"OHSATSERP\", \"FFATNOMMJ\", \"UOYEVOLI\", \"KHWLILZLL\") AND a.id_country != \"{config}PS_COUNTRY_DEFAULT{/config}\"', '>=', '10000', '0', 'hook', 'actionOrderStatusUpdate', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('106', '165', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '0', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:28:59');
+INSERT INTO `ps_condition` VALUES ('107', '166', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '1', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('108', '167', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '4', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:03');
+INSERT INTO `ps_condition` VALUES ('109', '168', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '9', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:05');
+INSERT INTO `ps_condition` VALUES ('110', '169', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '19', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:07');
+INSERT INTO `ps_condition` VALUES ('111', '170', 'sql', 'SELECT COUNT(s.`id_store`) FROM PREFIX_store s WHERE `latitude` NOT IN (\'25.76500500\', \'26.13793600\', \'26.00998700\', \'25.73629600\', \'25.88674000\') AND `longitude` NOT IN (\'-80.24379700\', \'-80.13943500\', \'-80.29447200\', \'-80.24479700\', \'-80.16329200\')', '>', '49', '0', 'hook', 'actionAdminStoresControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('112', '171', 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '1', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', '0', '2015-05-16 15:28:12', '2015-05-16 15:29:00');
+INSERT INTO `ps_condition` VALUES ('113', '172', 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '2', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:01');
+INSERT INTO `ps_condition` VALUES ('114', '173', 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '3', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:04');
+INSERT INTO `ps_condition` VALUES ('115', '174', 'sql', 'SELECT COUNT(*) FROM PREFIX_webservice_account', '>=', '4', '0', 'hook', 'actionAdminWebserviceControllerSaveAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('116', '320', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%shopgate%\" ', '>=', '1', '0', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:27');
+INSERT INTO `ps_condition` VALUES ('117', '322', 'configuration', 'SHOPGATE_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:02');
+INSERT INTO `ps_condition` VALUES ('118', '375', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:04');
+INSERT INTO `ps_condition` VALUES ('119', '376', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%shopgate%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:06');
+INSERT INTO `ps_condition` VALUES ('120', '140', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%moneybookers%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('121', '326', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'MONEYBOOKERS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'MB_PAY_TO_EMAIL \') AND ( value != \'testaccount2@moneybookers.com \'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('122', '377', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%moneybookers%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '1', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('123', '394', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%sofortbanking%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('124', '428', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%authorizeaim%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('125', '429', 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'AUTHORIZEAIM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AUTHORIZE_AIM_SANDBOX\') AND ( value = \'0\'))', '==', '2', '', 'time', '2', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('126', '430', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('127', '431', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%authorizeaim%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('128', '136', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ebay%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('129', '209', 'configuration', 'EBAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:09');
+INSERT INTO `ps_condition` VALUES ('130', '358', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1', '>=', '1', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:10');
+INSERT INTO `ps_condition` VALUES ('131', '359', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%ebay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:10');
+INSERT INTO `ps_condition` VALUES ('132', '438', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payplug%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('133', '439', 'configuration', 'PAYPLUG_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:10');
+INSERT INTO `ps_condition` VALUES ('134', '440', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:10');
+INSERT INTO `ps_condition` VALUES ('135', '441', 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payplug%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '10000', '0', 'time', '7', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:10');
+INSERT INTO `ps_condition` VALUES ('136', '442', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%affinityitems%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('137', '443', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE name LIKE \'AFFINITYITEMS_CONFIGURATION_OK\' AND value = \'1\'', '==', '1', '0', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('138', '444', 'configuration', 'SELECT 1', '!=', '1', '1', 'time', '100', '1', '2015-05-16 15:28:13', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('139', '445', 'configuration', 'SELECT 1', '!=', '1', '1', 'time', '100', '1', '2015-05-16 15:28:13', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('140', '446', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%dpdpoland%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:13', '2015-05-16 15:28:13');
+INSERT INTO `ps_condition` VALUES ('141', '447', 'configuration', 'DPDPOLAND_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:13', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('142', '448', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('143', '449', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%dpdpoland%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('144', '450', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%envoimoinscher%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:14', '2015-05-16 15:28:14');
+INSERT INTO `ps_condition` VALUES ('145', '451', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ENVOIMOINSCHER_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'EMC_ENV \') AND ( value != \'TEST\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('146', '452', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('147', '453', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%envoimoinscher%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:11');
+INSERT INTO `ps_condition` VALUES ('148', '454', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%klikandpay%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:14', '2015-05-16 15:28:14');
+INSERT INTO `ps_condition` VALUES ('149', '455', 'configuration', 'KLIKANDPAY_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('150', '456', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('151', '457', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%klikandpay%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('152', '458', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%clickline%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:14', '2015-05-16 15:28:14');
+INSERT INTO `ps_condition` VALUES ('153', '459', 'configuration', 'CLICKLINE_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('154', '460', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('155', '461', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state LEFT JOIN PREFIX_carrier c ON c.id_carrier = o.id_carrier WHERE c.name like \"%clickline%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '100', '0', 'time', '7', '0', '2015-05-16 15:28:14', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('156', '462', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%cdiscount%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:15', '2015-05-16 15:28:15');
+INSERT INTO `ps_condition` VALUES ('157', '463', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('158', '464', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:12');
+INSERT INTO `ps_condition` VALUES ('159', '465', 'sql', 'SELECT SUM(o.total_paid) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%cdiscount%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 365 DAY)', '>=', '500', '0', 'time', '7', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('160', '467', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%erpillicopresta%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:15', '2015-05-16 15:28:15');
+INSERT INTO `ps_condition` VALUES ('161', '468', 'configuration', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'ERPILLICOPRESTA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'ERP_LICENCE_VALIDITY \') AND ( value == \'1\')) OR (( name LIKE \'ERP_MONTH_FREE_ACTIVE \') AND ( value == \'0\'))', '==', '3', '', 'time', '1', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('162', '469', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('163', '470', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('164', '471', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%netreviews%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:15', '2015-05-16 15:28:15');
+INSERT INTO `ps_condition` VALUES ('165', '472', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'NETREVIEWS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'AVISVERIFIES_URLCERTIFICAT \') AND ( value IS NOT LIKE \'%preprod%\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('166', '473', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('167', '474', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '100', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('168', '475', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%bluesnap%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:15', '2015-05-16 15:28:15');
+INSERT INTO `ps_condition` VALUES ('169', '476', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'BLUESNAP_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'BLUESNAP_SANDBOX \') AND ( value NOT LIKE \'%sandbox%\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('170', '477', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('171', '478', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%bluesnap%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('172', '479', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%desjardins%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:15', '2015-05-16 15:28:15');
+INSERT INTO `ps_condition` VALUES ('173', '480', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'DESJARDINS_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'DESJARDINS_MODE \') AND ( value NOT LIKE \'%test%\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:15', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('174', '481', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('175', '482', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%desjardins%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:13');
+INSERT INTO `ps_condition` VALUES ('176', '483', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%firstdata%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('177', '484', 'configuration', 'FIRSTDATA_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:14');
+INSERT INTO `ps_condition` VALUES ('178', '485', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:14');
+INSERT INTO `ps_condition` VALUES ('179', '486', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%firstdata%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:14');
+INSERT INTO `ps_condition` VALUES ('180', '487', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%giveit%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('181', '488', 'sql', 'GIVEIT_CONFIGURATION_OK', '>=', '1', '0', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:14');
+INSERT INTO `ps_condition` VALUES ('182', '489', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:14');
+INSERT INTO `ps_condition` VALUES ('183', '490', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('184', '491', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%ganalytics%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('185', '492', 'configuration', 'GANALYTICS_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('186', '493', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('187', '494', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('188', '496', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%pagseguro%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('189', '497', 'configuration', 'PAGSEGURO_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('190', '498', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('191', '499', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%pagseguro%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('192', '500', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalmx%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('193', '501', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALMX_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_MX_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('194', '502', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('195', '503', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:15');
+INSERT INTO `ps_condition` VALUES ('196', '505', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%paypalusa%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:16', '2015-05-16 15:28:16');
+INSERT INTO `ps_condition` VALUES ('197', '506', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYPALUSA_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYPAL_USA_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:16', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('198', '507', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalusa%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('199', '508', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%paypalmx%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('200', '509', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%payulatam%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('201', '510', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'PAYULATAM_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'PAYU_LATAM_TEST\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('202', '511', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('203', '512', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%payulatam%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('204', '513', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%prestastats%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('205', '514', 'configuration', 'PRESTASTATS_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('206', '515', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:16');
+INSERT INTO `ps_condition` VALUES ('207', '516', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('208', '517', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%riskified%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('209', '518', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'RISKIFIED_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'RISKIFIED_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('210', '519', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('211', '520', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%riskified%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('212', '521', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%simplifycommerce%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('213', '522', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'SIMPLIFY_CONFIGURATION_OK\') AND ( value = \'1\')) OR (( name LIKE \'SIMPLIFY_MODE\') AND ( value = \'1\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('214', '523', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('215', '524', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%simplifycommerce%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('216', '525', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%vtpayment%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('217', '526', 'configuration', 'VTPAYMENT_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('218', '527', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1', '>=', '1', '0', 'time', '2', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('219', '528', 'sql', 'SELECT COUNT(*) FROM PREFIX_orders o LEFT JOIN PREFIX_order_state os ON os.id_order_state = o.current_state WHERE o.module like \"%vtpayment%\" AND os.logable = 1 AND o.date_add > DATE_SUB(NOW(), INTERVAL 90 DAY)', '>=', '30', '0', 'time', '7', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('220', '529', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:17', '2015-05-16 15:28:17');
+INSERT INTO `ps_condition` VALUES ('221', '530', 'configuration', 'YOTPO_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('222', '531', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:17');
+INSERT INTO `ps_condition` VALUES ('223', '532', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:17', '2015-05-16 15:29:18');
+INSERT INTO `ps_condition` VALUES ('224', '533', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%yotpo%\"', '==', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:18', '2015-05-16 15:28:18');
+INSERT INTO `ps_condition` VALUES ('225', '534', 'sql', 'SELECT COUNT(*) FROM PREFIX_configuration WHERE (( name LIKE \'YOUSTICERESOLUTIONSYSTEM_CONF_OK\') AND ( value = \'1\')) OR (( name LIKE \'YRS_SANDBOX\') AND ( value = \'0\'))', '==', '2', '0', 'time', '1', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:18');
+INSERT INTO `ps_condition` VALUES ('226', '535', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:18');
+INSERT INTO `ps_condition` VALUES ('227', '536', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:18');
+INSERT INTO `ps_condition` VALUES ('228', '537', 'sql', 'SELECT COUNT( id_module ) FROM PREFIX_module WHERE `name` like \"%loyaltylion%\"', '>=', '1', '', 'hook', 'actionModuleInstallAfter', '0', '2015-05-16 15:28:18', '2015-05-16 15:28:18');
+INSERT INTO `ps_condition` VALUES ('229', '538', 'configuration', 'LOYALTYLION_CONFIGURATION_OK', '==', '1', '', 'time', '1', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:18');
+INSERT INTO `ps_condition` VALUES ('230', '539', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:19');
+INSERT INTO `ps_condition` VALUES ('231', '540', 'sql', 'SELECT 1', '!=', '1', '1', 'time', '365', '0', '2015-05-16 15:28:18', '2015-05-16 15:29:19');
 
 -- ----------------------------
 -- Table structure for `ps_condition_advice`
@@ -1926,6 +2640,28 @@ CREATE TABLE `ps_condition_advice` (
 -- ----------------------------
 -- Records of ps_condition_advice
 -- ----------------------------
+INSERT INTO `ps_condition_advice` VALUES ('1', '1', '1');
+INSERT INTO `ps_condition_advice` VALUES ('2', '1', '0');
+INSERT INTO `ps_condition_advice` VALUES ('3', '2', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '3', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '4', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '5', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '6', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '7', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '10', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '11', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '13', '1');
+INSERT INTO `ps_condition_advice` VALUES ('3', '14', '1');
+INSERT INTO `ps_condition_advice` VALUES ('4', '2', '0');
+INSERT INTO `ps_condition_advice` VALUES ('4', '3', '0');
+INSERT INTO `ps_condition_advice` VALUES ('4', '5', '0');
+INSERT INTO `ps_condition_advice` VALUES ('4', '7', '0');
+INSERT INTO `ps_condition_advice` VALUES ('5', '8', '1');
+INSERT INTO `ps_condition_advice` VALUES ('5', '9', '1');
+INSERT INTO `ps_condition_advice` VALUES ('6', '12', '1');
+INSERT INTO `ps_condition_advice` VALUES ('7', '12', '0');
+INSERT INTO `ps_condition_advice` VALUES ('7', '13', '0');
+INSERT INTO `ps_condition_advice` VALUES ('7', '14', '0');
 
 -- ----------------------------
 -- Table structure for `ps_condition_badge`
@@ -1940,6 +2676,235 @@ CREATE TABLE `ps_condition_badge` (
 -- ----------------------------
 -- Records of ps_condition_badge
 -- ----------------------------
+INSERT INTO `ps_condition_badge` VALUES ('3', '133');
+INSERT INTO `ps_condition_badge` VALUES ('4', '154');
+INSERT INTO `ps_condition_badge` VALUES ('5', '169');
+INSERT INTO `ps_condition_badge` VALUES ('6', '129');
+INSERT INTO `ps_condition_badge` VALUES ('7', '153');
+INSERT INTO `ps_condition_badge` VALUES ('8', '117');
+INSERT INTO `ps_condition_badge` VALUES ('9', '118');
+INSERT INTO `ps_condition_badge` VALUES ('10', '118');
+INSERT INTO `ps_condition_badge` VALUES ('11', '118');
+INSERT INTO `ps_condition_badge` VALUES ('12', '119');
+INSERT INTO `ps_condition_badge` VALUES ('13', '120');
+INSERT INTO `ps_condition_badge` VALUES ('14', '121');
+INSERT INTO `ps_condition_badge` VALUES ('15', '122');
+INSERT INTO `ps_condition_badge` VALUES ('16', '123');
+INSERT INTO `ps_condition_badge` VALUES ('17', '124');
+INSERT INTO `ps_condition_badge` VALUES ('18', '125');
+INSERT INTO `ps_condition_badge` VALUES ('19', '126');
+INSERT INTO `ps_condition_badge` VALUES ('20', '127');
+INSERT INTO `ps_condition_badge` VALUES ('21', '128');
+INSERT INTO `ps_condition_badge` VALUES ('22', '130');
+INSERT INTO `ps_condition_badge` VALUES ('23', '131');
+INSERT INTO `ps_condition_badge` VALUES ('24', '132');
+INSERT INTO `ps_condition_badge` VALUES ('25', '134');
+INSERT INTO `ps_condition_badge` VALUES ('26', '135');
+INSERT INTO `ps_condition_badge` VALUES ('27', '136');
+INSERT INTO `ps_condition_badge` VALUES ('28', '137');
+INSERT INTO `ps_condition_badge` VALUES ('29', '138');
+INSERT INTO `ps_condition_badge` VALUES ('30', '139');
+INSERT INTO `ps_condition_badge` VALUES ('31', '140');
+INSERT INTO `ps_condition_badge` VALUES ('32', '141');
+INSERT INTO `ps_condition_badge` VALUES ('33', '142');
+INSERT INTO `ps_condition_badge` VALUES ('34', '143');
+INSERT INTO `ps_condition_badge` VALUES ('35', '144');
+INSERT INTO `ps_condition_badge` VALUES ('36', '145');
+INSERT INTO `ps_condition_badge` VALUES ('37', '146');
+INSERT INTO `ps_condition_badge` VALUES ('38', '147');
+INSERT INTO `ps_condition_badge` VALUES ('39', '148');
+INSERT INTO `ps_condition_badge` VALUES ('40', '149');
+INSERT INTO `ps_condition_badge` VALUES ('41', '150');
+INSERT INTO `ps_condition_badge` VALUES ('42', '151');
+INSERT INTO `ps_condition_badge` VALUES ('43', '152');
+INSERT INTO `ps_condition_badge` VALUES ('44', '155');
+INSERT INTO `ps_condition_badge` VALUES ('45', '156');
+INSERT INTO `ps_condition_badge` VALUES ('46', '157');
+INSERT INTO `ps_condition_badge` VALUES ('47', '158');
+INSERT INTO `ps_condition_badge` VALUES ('48', '159');
+INSERT INTO `ps_condition_badge` VALUES ('49', '160');
+INSERT INTO `ps_condition_badge` VALUES ('50', '161');
+INSERT INTO `ps_condition_badge` VALUES ('51', '162');
+INSERT INTO `ps_condition_badge` VALUES ('52', '163');
+INSERT INTO `ps_condition_badge` VALUES ('53', '164');
+INSERT INTO `ps_condition_badge` VALUES ('54', '165');
+INSERT INTO `ps_condition_badge` VALUES ('55', '166');
+INSERT INTO `ps_condition_badge` VALUES ('56', '167');
+INSERT INTO `ps_condition_badge` VALUES ('57', '168');
+INSERT INTO `ps_condition_badge` VALUES ('58', '170');
+INSERT INTO `ps_condition_badge` VALUES ('59', '171');
+INSERT INTO `ps_condition_badge` VALUES ('60', '172');
+INSERT INTO `ps_condition_badge` VALUES ('61', '173');
+INSERT INTO `ps_condition_badge` VALUES ('62', '174');
+INSERT INTO `ps_condition_badge` VALUES ('63', '175');
+INSERT INTO `ps_condition_badge` VALUES ('64', '176');
+INSERT INTO `ps_condition_badge` VALUES ('65', '177');
+INSERT INTO `ps_condition_badge` VALUES ('66', '178');
+INSERT INTO `ps_condition_badge` VALUES ('67', '179');
+INSERT INTO `ps_condition_badge` VALUES ('68', '180');
+INSERT INTO `ps_condition_badge` VALUES ('69', '181');
+INSERT INTO `ps_condition_badge` VALUES ('70', '182');
+INSERT INTO `ps_condition_badge` VALUES ('71', '183');
+INSERT INTO `ps_condition_badge` VALUES ('72', '184');
+INSERT INTO `ps_condition_badge` VALUES ('73', '185');
+INSERT INTO `ps_condition_badge` VALUES ('74', '186');
+INSERT INTO `ps_condition_badge` VALUES ('75', '187');
+INSERT INTO `ps_condition_badge` VALUES ('76', '188');
+INSERT INTO `ps_condition_badge` VALUES ('77', '189');
+INSERT INTO `ps_condition_badge` VALUES ('78', '190');
+INSERT INTO `ps_condition_badge` VALUES ('79', '191');
+INSERT INTO `ps_condition_badge` VALUES ('80', '192');
+INSERT INTO `ps_condition_badge` VALUES ('81', '193');
+INSERT INTO `ps_condition_badge` VALUES ('82', '194');
+INSERT INTO `ps_condition_badge` VALUES ('83', '195');
+INSERT INTO `ps_condition_badge` VALUES ('84', '196');
+INSERT INTO `ps_condition_badge` VALUES ('85', '197');
+INSERT INTO `ps_condition_badge` VALUES ('86', '198');
+INSERT INTO `ps_condition_badge` VALUES ('87', '199');
+INSERT INTO `ps_condition_badge` VALUES ('88', '200');
+INSERT INTO `ps_condition_badge` VALUES ('89', '201');
+INSERT INTO `ps_condition_badge` VALUES ('90', '202');
+INSERT INTO `ps_condition_badge` VALUES ('91', '203');
+INSERT INTO `ps_condition_badge` VALUES ('92', '204');
+INSERT INTO `ps_condition_badge` VALUES ('93', '205');
+INSERT INTO `ps_condition_badge` VALUES ('94', '206');
+INSERT INTO `ps_condition_badge` VALUES ('95', '207');
+INSERT INTO `ps_condition_badge` VALUES ('96', '208');
+INSERT INTO `ps_condition_badge` VALUES ('97', '209');
+INSERT INTO `ps_condition_badge` VALUES ('98', '210');
+INSERT INTO `ps_condition_badge` VALUES ('99', '211');
+INSERT INTO `ps_condition_badge` VALUES ('100', '212');
+INSERT INTO `ps_condition_badge` VALUES ('101', '213');
+INSERT INTO `ps_condition_badge` VALUES ('102', '214');
+INSERT INTO `ps_condition_badge` VALUES ('103', '215');
+INSERT INTO `ps_condition_badge` VALUES ('104', '216');
+INSERT INTO `ps_condition_badge` VALUES ('105', '217');
+INSERT INTO `ps_condition_badge` VALUES ('106', '218');
+INSERT INTO `ps_condition_badge` VALUES ('107', '219');
+INSERT INTO `ps_condition_badge` VALUES ('108', '220');
+INSERT INTO `ps_condition_badge` VALUES ('109', '221');
+INSERT INTO `ps_condition_badge` VALUES ('110', '222');
+INSERT INTO `ps_condition_badge` VALUES ('111', '223');
+INSERT INTO `ps_condition_badge` VALUES ('112', '224');
+INSERT INTO `ps_condition_badge` VALUES ('113', '225');
+INSERT INTO `ps_condition_badge` VALUES ('114', '226');
+INSERT INTO `ps_condition_badge` VALUES ('115', '227');
+INSERT INTO `ps_condition_badge` VALUES ('116', '1');
+INSERT INTO `ps_condition_badge` VALUES ('117', '2');
+INSERT INTO `ps_condition_badge` VALUES ('118', '3');
+INSERT INTO `ps_condition_badge` VALUES ('119', '4');
+INSERT INTO `ps_condition_badge` VALUES ('120', '5');
+INSERT INTO `ps_condition_badge` VALUES ('121', '6');
+INSERT INTO `ps_condition_badge` VALUES ('122', '7');
+INSERT INTO `ps_condition_badge` VALUES ('123', '8');
+INSERT INTO `ps_condition_badge` VALUES ('124', '9');
+INSERT INTO `ps_condition_badge` VALUES ('125', '10');
+INSERT INTO `ps_condition_badge` VALUES ('126', '11');
+INSERT INTO `ps_condition_badge` VALUES ('127', '12');
+INSERT INTO `ps_condition_badge` VALUES ('128', '13');
+INSERT INTO `ps_condition_badge` VALUES ('129', '14');
+INSERT INTO `ps_condition_badge` VALUES ('130', '15');
+INSERT INTO `ps_condition_badge` VALUES ('131', '16');
+INSERT INTO `ps_condition_badge` VALUES ('132', '17');
+INSERT INTO `ps_condition_badge` VALUES ('133', '18');
+INSERT INTO `ps_condition_badge` VALUES ('134', '19');
+INSERT INTO `ps_condition_badge` VALUES ('135', '20');
+INSERT INTO `ps_condition_badge` VALUES ('136', '21');
+INSERT INTO `ps_condition_badge` VALUES ('137', '22');
+INSERT INTO `ps_condition_badge` VALUES ('138', '23');
+INSERT INTO `ps_condition_badge` VALUES ('139', '24');
+INSERT INTO `ps_condition_badge` VALUES ('140', '25');
+INSERT INTO `ps_condition_badge` VALUES ('141', '26');
+INSERT INTO `ps_condition_badge` VALUES ('142', '27');
+INSERT INTO `ps_condition_badge` VALUES ('143', '28');
+INSERT INTO `ps_condition_badge` VALUES ('144', '29');
+INSERT INTO `ps_condition_badge` VALUES ('145', '30');
+INSERT INTO `ps_condition_badge` VALUES ('146', '31');
+INSERT INTO `ps_condition_badge` VALUES ('147', '32');
+INSERT INTO `ps_condition_badge` VALUES ('148', '33');
+INSERT INTO `ps_condition_badge` VALUES ('149', '34');
+INSERT INTO `ps_condition_badge` VALUES ('150', '35');
+INSERT INTO `ps_condition_badge` VALUES ('151', '36');
+INSERT INTO `ps_condition_badge` VALUES ('152', '37');
+INSERT INTO `ps_condition_badge` VALUES ('153', '38');
+INSERT INTO `ps_condition_badge` VALUES ('154', '39');
+INSERT INTO `ps_condition_badge` VALUES ('155', '40');
+INSERT INTO `ps_condition_badge` VALUES ('156', '41');
+INSERT INTO `ps_condition_badge` VALUES ('157', '42');
+INSERT INTO `ps_condition_badge` VALUES ('158', '43');
+INSERT INTO `ps_condition_badge` VALUES ('159', '44');
+INSERT INTO `ps_condition_badge` VALUES ('160', '45');
+INSERT INTO `ps_condition_badge` VALUES ('161', '46');
+INSERT INTO `ps_condition_badge` VALUES ('162', '47');
+INSERT INTO `ps_condition_badge` VALUES ('163', '48');
+INSERT INTO `ps_condition_badge` VALUES ('164', '49');
+INSERT INTO `ps_condition_badge` VALUES ('165', '50');
+INSERT INTO `ps_condition_badge` VALUES ('166', '51');
+INSERT INTO `ps_condition_badge` VALUES ('167', '52');
+INSERT INTO `ps_condition_badge` VALUES ('168', '53');
+INSERT INTO `ps_condition_badge` VALUES ('169', '54');
+INSERT INTO `ps_condition_badge` VALUES ('170', '55');
+INSERT INTO `ps_condition_badge` VALUES ('171', '56');
+INSERT INTO `ps_condition_badge` VALUES ('172', '57');
+INSERT INTO `ps_condition_badge` VALUES ('173', '58');
+INSERT INTO `ps_condition_badge` VALUES ('174', '59');
+INSERT INTO `ps_condition_badge` VALUES ('175', '60');
+INSERT INTO `ps_condition_badge` VALUES ('176', '61');
+INSERT INTO `ps_condition_badge` VALUES ('177', '62');
+INSERT INTO `ps_condition_badge` VALUES ('178', '63');
+INSERT INTO `ps_condition_badge` VALUES ('179', '64');
+INSERT INTO `ps_condition_badge` VALUES ('180', '65');
+INSERT INTO `ps_condition_badge` VALUES ('181', '66');
+INSERT INTO `ps_condition_badge` VALUES ('182', '67');
+INSERT INTO `ps_condition_badge` VALUES ('183', '68');
+INSERT INTO `ps_condition_badge` VALUES ('184', '69');
+INSERT INTO `ps_condition_badge` VALUES ('185', '70');
+INSERT INTO `ps_condition_badge` VALUES ('186', '71');
+INSERT INTO `ps_condition_badge` VALUES ('187', '72');
+INSERT INTO `ps_condition_badge` VALUES ('188', '73');
+INSERT INTO `ps_condition_badge` VALUES ('189', '74');
+INSERT INTO `ps_condition_badge` VALUES ('190', '75');
+INSERT INTO `ps_condition_badge` VALUES ('191', '76');
+INSERT INTO `ps_condition_badge` VALUES ('192', '77');
+INSERT INTO `ps_condition_badge` VALUES ('193', '78');
+INSERT INTO `ps_condition_badge` VALUES ('194', '79');
+INSERT INTO `ps_condition_badge` VALUES ('195', '80');
+INSERT INTO `ps_condition_badge` VALUES ('196', '81');
+INSERT INTO `ps_condition_badge` VALUES ('197', '82');
+INSERT INTO `ps_condition_badge` VALUES ('198', '83');
+INSERT INTO `ps_condition_badge` VALUES ('199', '84');
+INSERT INTO `ps_condition_badge` VALUES ('200', '85');
+INSERT INTO `ps_condition_badge` VALUES ('201', '86');
+INSERT INTO `ps_condition_badge` VALUES ('202', '87');
+INSERT INTO `ps_condition_badge` VALUES ('203', '88');
+INSERT INTO `ps_condition_badge` VALUES ('204', '89');
+INSERT INTO `ps_condition_badge` VALUES ('205', '90');
+INSERT INTO `ps_condition_badge` VALUES ('206', '91');
+INSERT INTO `ps_condition_badge` VALUES ('207', '92');
+INSERT INTO `ps_condition_badge` VALUES ('208', '93');
+INSERT INTO `ps_condition_badge` VALUES ('209', '94');
+INSERT INTO `ps_condition_badge` VALUES ('210', '95');
+INSERT INTO `ps_condition_badge` VALUES ('211', '96');
+INSERT INTO `ps_condition_badge` VALUES ('212', '97');
+INSERT INTO `ps_condition_badge` VALUES ('213', '98');
+INSERT INTO `ps_condition_badge` VALUES ('214', '99');
+INSERT INTO `ps_condition_badge` VALUES ('215', '100');
+INSERT INTO `ps_condition_badge` VALUES ('216', '101');
+INSERT INTO `ps_condition_badge` VALUES ('217', '102');
+INSERT INTO `ps_condition_badge` VALUES ('218', '103');
+INSERT INTO `ps_condition_badge` VALUES ('219', '104');
+INSERT INTO `ps_condition_badge` VALUES ('220', '105');
+INSERT INTO `ps_condition_badge` VALUES ('221', '106');
+INSERT INTO `ps_condition_badge` VALUES ('222', '107');
+INSERT INTO `ps_condition_badge` VALUES ('223', '108');
+INSERT INTO `ps_condition_badge` VALUES ('224', '109');
+INSERT INTO `ps_condition_badge` VALUES ('225', '110');
+INSERT INTO `ps_condition_badge` VALUES ('226', '111');
+INSERT INTO `ps_condition_badge` VALUES ('227', '112');
+INSERT INTO `ps_condition_badge` VALUES ('228', '113');
+INSERT INTO `ps_condition_badge` VALUES ('229', '114');
+INSERT INTO `ps_condition_badge` VALUES ('230', '115');
+INSERT INTO `ps_condition_badge` VALUES ('231', '116');
 
 -- ----------------------------
 -- Table structure for `ps_configuration`
@@ -1957,7 +2922,7 @@ CREATE TABLE `ps_configuration` (
   KEY `name` (`name`),
   KEY `id_shop` (`id_shop`),
   KEY `id_shop_group` (`id_shop_group`)
-) ENGINE=InnoDB AUTO_INCREMENT=392 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=395 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_configuration
@@ -2078,7 +3043,7 @@ INSERT INTO `ps_configuration` VALUES ('113', null, null, 'PS_STORES_CENTER_LAT'
 INSERT INTO `ps_configuration` VALUES ('114', null, null, 'PS_STORES_CENTER_LONG', '-80.226439', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('115', null, null, 'PS_USE_ECOTAX', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('116', null, null, 'PS_CANONICAL_REDIRECT', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
-INSERT INTO `ps_configuration` VALUES ('117', null, null, 'PS_IMG_UPDATE_TIME', '1324977642', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `ps_configuration` VALUES ('117', null, null, 'PS_IMG_UPDATE_TIME', '1431807133', '0000-00-00 00:00:00', '2015-05-16 15:42:13');
 INSERT INTO `ps_configuration` VALUES ('118', null, null, 'PS_BACKUP_DROP_TABLE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('119', null, null, 'PS_OS_CHEQUE', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('120', null, null, 'PS_OS_PAYMENT', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
@@ -2200,7 +3165,7 @@ INSERT INTO `ps_configuration` VALUES ('235', null, null, 'PS_SHOP_DOMAIN_SSL', 
 INSERT INTO `ps_configuration` VALUES ('236', null, null, 'PS_SHOP_NAME', 'OdalysTienda', '0000-00-00 00:00:00', '2015-05-03 22:02:21');
 INSERT INTO `ps_configuration` VALUES ('237', null, null, 'PS_SHOP_EMAIL', 'localhost@localhost.com', '0000-00-00 00:00:00', '2015-05-03 22:02:43');
 INSERT INTO `ps_configuration` VALUES ('238', null, null, 'PS_MAIL_METHOD', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
-INSERT INTO `ps_configuration` VALUES ('239', null, null, 'PS_SHOP_ACTIVITY', '0', '0000-00-00 00:00:00', '2015-05-03 22:02:21');
+INSERT INTO `ps_configuration` VALUES ('239', null, null, 'PS_SHOP_ACTIVITY', '3', '0000-00-00 00:00:00', '2015-05-16 15:44:24');
 INSERT INTO `ps_configuration` VALUES ('240', null, null, 'PS_LOGO', 'logo.jpg', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('241', null, null, 'PS_FAVICON', 'favicon.ico', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
 INSERT INTO `ps_configuration` VALUES ('242', null, null, 'PS_STORES_ICON', 'logo_stores.gif', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
@@ -2335,24 +3300,27 @@ INSERT INTO `ps_configuration` VALUES ('370', null, null, 'PS_TC_THEME', null, '
 INSERT INTO `ps_configuration` VALUES ('371', null, null, 'PS_TC_FONT', null, '2015-05-03 22:05:12', '2015-05-03 22:05:12');
 INSERT INTO `ps_configuration` VALUES ('372', null, null, 'PS_TC_ACTIVE', '1', '2015-05-03 22:05:12', '2015-05-03 22:05:12');
 INSERT INTO `ps_configuration` VALUES ('373', null, null, 'PS_SET_DISPLAY_SUBCATEGORIES', '1', '2015-05-03 22:05:12', '2015-05-03 22:05:12');
-INSERT INTO `ps_configuration` VALUES ('374', null, null, 'GF_INSTALL_CALC', '0', '2015-05-03 22:05:37', '2015-05-03 22:05:37');
+INSERT INTO `ps_configuration` VALUES ('374', null, null, 'GF_INSTALL_CALC', '1', '2015-05-03 22:05:37', '2015-05-16 15:29:09');
 INSERT INTO `ps_configuration` VALUES ('375', null, null, 'GF_CURRENT_LEVEL', '1', '2015-05-03 22:05:37', '2015-05-03 22:05:37');
-INSERT INTO `ps_configuration` VALUES ('376', null, null, 'GF_CURRENT_LEVEL_PERCENT', '0', '2015-05-03 22:05:37', '2015-05-03 22:05:37');
-INSERT INTO `ps_configuration` VALUES ('377', null, null, 'GF_NOTIFICATION', '0', '2015-05-03 22:05:37', '2015-05-03 22:05:37');
+INSERT INTO `ps_configuration` VALUES ('376', null, null, 'GF_CURRENT_LEVEL_PERCENT', '65', '2015-05-03 22:05:37', '2015-05-16 15:29:29');
+INSERT INTO `ps_configuration` VALUES ('377', null, null, 'GF_NOTIFICATION', '6', '2015-05-03 22:05:37', '2015-05-16 15:29:29');
 INSERT INTO `ps_configuration` VALUES ('378', null, null, 'PRODUCT_COMMENTS_MINIMAL_TIME', '30', '2015-05-03 22:05:42', '2015-05-03 22:05:42');
 INSERT INTO `ps_configuration` VALUES ('379', null, null, 'PRODUCT_COMMENTS_ALLOW_GUESTS', '0', '2015-05-03 22:05:42', '2015-05-03 22:05:42');
 INSERT INTO `ps_configuration` VALUES ('380', null, null, 'PRODUCT_COMMENTS_MODERATE', '1', '2015-05-03 22:05:42', '2015-05-03 22:05:42');
-INSERT INTO `ps_configuration` VALUES ('381', null, null, 'CRONJOBS_ADMIN_DIR', '2e76922d4bd54ce819d51db5474113ea', '2015-05-03 22:05:43', '2015-05-03 22:05:43');
+INSERT INTO `ps_configuration` VALUES ('381', null, null, 'CRONJOBS_ADMIN_DIR', '2201b744f9bfaca706382d1c8f673c24', '2015-05-03 22:05:43', '2015-05-16 15:41:07');
 INSERT INTO `ps_configuration` VALUES ('382', null, null, 'CRONJOBS_MODE', 'webservice', '2015-05-03 22:05:43', '2015-05-03 22:05:43');
 INSERT INTO `ps_configuration` VALUES ('383', null, null, 'CRONJOBS_MODULE_VERSION', '1.2.6', '2015-05-03 22:05:43', '2015-05-03 22:05:43');
 INSERT INTO `ps_configuration` VALUES ('384', null, null, 'CRONJOBS_WEBSERVICE_ID', '0', '2015-05-03 22:05:43', '2015-05-03 22:05:43');
 INSERT INTO `ps_configuration` VALUES ('385', null, null, 'CRONJOBS_EXECUTION_TOKEN', '8fe34baaad87e0488cd0bdbfe94f72ec', '2015-05-03 22:05:43', '2015-05-03 22:05:43');
-INSERT INTO `ps_configuration` VALUES ('386', null, null, 'PS_ONBOARDING_CURRENT_STEP', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
+INSERT INTO `ps_configuration` VALUES ('386', null, null, 'PS_ONBOARDING_CURRENT_STEP', '1', '2015-05-03 22:05:45', '2015-05-16 15:28:47');
 INSERT INTO `ps_configuration` VALUES ('387', null, null, 'PS_ONBOARDING_LAST_VALIDATE_STEP', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
 INSERT INTO `ps_configuration` VALUES ('388', null, null, 'PS_ONBOARDING_STEP_1_COMPLETED', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
 INSERT INTO `ps_configuration` VALUES ('389', null, null, 'PS_ONBOARDING_STEP_2_COMPLETED', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
 INSERT INTO `ps_configuration` VALUES ('390', null, null, 'PS_ONBOARDING_STEP_3_COMPLETED', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
 INSERT INTO `ps_configuration` VALUES ('391', null, null, 'PS_ONBOARDING_STEP_4_COMPLETED', '0', '2015-05-03 22:05:45', '2015-05-03 22:05:45');
+INSERT INTO `ps_configuration` VALUES ('392', null, null, 'GF_NOT_VIEWED_BADGE', '23|24|117|133|134|179', '2015-05-16 15:29:25', '2015-05-16 15:29:29');
+INSERT INTO `ps_configuration` VALUES ('393', null, null, 'PS_ALLOW_HTML_IFRAME', '0', '2015-05-16 15:44:24', '2015-05-16 15:44:24');
+INSERT INTO `ps_configuration` VALUES ('394', null, null, 'PS_MULTISHOP_FEATURE_ACTIVE', '0', '2015-05-16 15:44:24', '2015-05-16 15:44:24');
 
 -- ----------------------------
 -- Table structure for `ps_configuration_kpi`
@@ -2370,11 +3338,26 @@ CREATE TABLE `ps_configuration_kpi` (
   KEY `name` (`name`),
   KEY `id_shop` (`id_shop`),
   KEY `id_shop_group` (`id_shop_group`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_configuration_kpi
 -- ----------------------------
+INSERT INTO `ps_configuration_kpi` VALUES ('1', null, null, 'ORDERS_PER_CUSTOMER', '0', '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('2', null, null, 'NEWSLETTER_REGISTRATIONS', '2', '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('3', null, null, 'ORDERS_PER_CUSTOMER_EXPIRE', '1431893832', '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('4', null, null, 'CUSTOMER_MAIN_GENDER', null, '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('5', null, null, 'AVG_CUSTOMER_AGE', null, '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('6', null, null, 'NEWSLETTER_REGISTRATIONS_EXPIRE', '1431829032', '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('7', null, null, 'CUSTOMER_MAIN_GENDER_EXPIRE', null, '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('8', null, null, 'AVG_CUSTOMER_AGE_EXPIRE', null, '2015-05-16 15:47:12', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi` VALUES ('9', null, null, 'PRODUCT_AVG_GROSS_MARGIN', '70%', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('10', null, null, 'PRODUCT_AVG_GROSS_MARGIN_EXPIRE', '1431829090', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('11', null, null, '8020_SALES_CATALOG', '0% de su Catálogo', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('12', null, null, '8020_SALES_CATALOG_EXPIRE', '1431850690', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('13', null, null, 'DISABLED_PRODUCTS', '0%', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('14', null, null, 'PERCENT_PRODUCT_OUT_OF_STOCK', '13.33%', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
+INSERT INTO `ps_configuration_kpi` VALUES ('15', null, null, 'DISABLED_PRODUCTS_EXPIRE', '1431814690', '2015-05-16 15:48:10', '2015-05-16 15:48:10');
 
 -- ----------------------------
 -- Table structure for `ps_configuration_kpi_lang`
@@ -2391,6 +3374,10 @@ CREATE TABLE `ps_configuration_kpi_lang` (
 -- ----------------------------
 -- Records of ps_configuration_kpi_lang
 -- ----------------------------
+INSERT INTO `ps_configuration_kpi_lang` VALUES ('4', '1', '100% Clientes hombre', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi_lang` VALUES ('5', '1', '36 años', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi_lang` VALUES ('7', '1', '1431893832', '2015-05-16 15:47:12');
+INSERT INTO `ps_configuration_kpi_lang` VALUES ('8', '1', '1431893832', '2015-05-16 15:47:12');
 
 -- ----------------------------
 -- Table structure for `ps_configuration_lang`
@@ -2433,13 +3420,20 @@ CREATE TABLE `ps_connections` (
   KEY `id_guest` (`id_guest`),
   KEY `date_add` (`date_add`),
   KEY `id_page` (`id_page`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_connections
 -- ----------------------------
 INSERT INTO `ps_connections` VALUES ('1', '1', '1', '1', '1', '2130706433', '2015-05-03 22:03:28', 'http://www.prestashop.com');
 INSERT INTO `ps_connections` VALUES ('2', '1', '1', '2', '1', '2130706433', '2015-05-03 22:11:16', '');
+INSERT INTO `ps_connections` VALUES ('3', '1', '1', '3', '1', '2130706433', '2015-05-03 23:18:44', '');
+INSERT INTO `ps_connections` VALUES ('4', '1', '1', '2', '1', '2130706433', '2015-05-05 15:04:07', '');
+INSERT INTO `ps_connections` VALUES ('5', '1', '1', '2', '1', '2130706433', '2015-05-12 17:51:55', '');
+INSERT INTO `ps_connections` VALUES ('6', '1', '1', '3', '1', '2130706433', '2015-05-16 10:00:37', '');
+INSERT INTO `ps_connections` VALUES ('7', '1', '1', '3', '1', '2130706433', '2015-05-16 11:02:03', '');
+INSERT INTO `ps_connections` VALUES ('8', '1', '1', '4', '2', '2130706433', '2015-05-16 11:06:21', '');
+INSERT INTO `ps_connections` VALUES ('9', '1', '1', '2', '1', '2130706433', '2015-05-16 15:59:05', '');
 
 -- ----------------------------
 -- Table structure for `ps_connections_page`
@@ -3429,12 +4423,13 @@ CREATE TABLE `ps_customer` (
   KEY `id_gender` (`id_gender`),
   KEY `id_shop_group` (`id_shop_group`),
   KEY `id_shop` (`id_shop`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_customer
 -- ----------------------------
 INSERT INTO `ps_customer` VALUES ('1', '1', '1', '1', '3', '1', '0', '', '', '', 'John', 'DOE', 'pub@prestashop.com', 'c2dd4f3593637f10832738d9ffdbf7f4', '2015-05-03 16:02:53', '1970-01-15', '1', '', '2013-12-13 08:19:15', '1', '', '0.000000', '0', '0', '2a489ef0b48a3b20e6ef440b087e474c', '', '1', '0', '0', '2015-05-03 22:02:53', '2015-05-03 22:02:53');
+INSERT INTO `ps_customer` VALUES ('2', '1', '1', '1', '3', '1', '0', null, null, null, 'Edgar', 'Leal', 'edgar.leal0@gmail.com', '8420f9aa4ca38632cb13769d18d6a487', '2015-05-16 05:05:50', '1988-12-20', '1', '127.0.0.1', '2015-05-16 11:05:50', '1', null, '0.000000', '0', '0', 'cca3dec08516b78c7d5e42b903422d92', null, '1', '0', '0', '2015-05-16 11:05:50', '2015-05-16 11:05:50');
 
 -- ----------------------------
 -- Table structure for `ps_customer_group`
@@ -3452,6 +4447,7 @@ CREATE TABLE `ps_customer_group` (
 -- Records of ps_customer_group
 -- ----------------------------
 INSERT INTO `ps_customer_group` VALUES ('1', '3');
+INSERT INTO `ps_customer_group` VALUES ('2', '3');
 
 -- ----------------------------
 -- Table structure for `ps_customer_message`
@@ -3679,7 +4675,7 @@ CREATE TABLE `ps_employee` (
 -- ----------------------------
 -- Records of ps_employee
 -- ----------------------------
-INSERT INTO `ps_employee` VALUES ('1', '1', '1', 'Sanchez', 'Odalys', 'localhost@localhost.com', '19d50f74b10193f8b98279e0b551b6d3', '2015-05-03 16:02:43', '2015-04-03', '2015-05-03', '0000-00-00', '0000-00-00', '1', null, null, 'default', 'admin-theme.css', '1', '0', '1', '1', '0', '0', '0', '0', '0000-00-00');
+INSERT INTO `ps_employee` VALUES ('1', '1', '1', 'Sanchez', 'Odalys', 'localhost@localhost.com', 'a988aeae060db34fd88969c0885dbef1', '2015-05-03 16:02:43', '2015-05-03', '2015-05-03', '2015-05-03', '2015-05-03', '1', null, null, 'default', 'admin-theme.css', '1', '0', '1', '1', '0', '0', '0', '0', '2015-05-16');
 
 -- ----------------------------
 -- Table structure for `ps_employee_shop`
@@ -4031,13 +5027,15 @@ CREATE TABLE `ps_guest` (
   KEY `id_customer` (`id_customer`),
   KEY `id_operating_system` (`id_operating_system`),
   KEY `id_web_browser` (`id_web_browser`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_guest
 -- ----------------------------
 INSERT INTO `ps_guest` VALUES ('1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0');
 INSERT INTO `ps_guest` VALUES ('2', '3', '3', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', 'es', '0');
+INSERT INTO `ps_guest` VALUES ('3', '3', '11', '2', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0');
+INSERT INTO `ps_guest` VALUES ('4', '3', '11', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '', '0');
 
 -- ----------------------------
 -- Table structure for `ps_homeslider`
@@ -4109,7 +5107,7 @@ CREATE TABLE `ps_hook` (
   `live_edit` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id_hook`),
   UNIQUE KEY `hook_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=141 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=156 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_hook
@@ -4253,6 +5251,21 @@ INSERT INTO `ps_hook` VALUES ('137', 'actionObjectOrderReturnAddAfter', 'actionO
 INSERT INTO `ps_hook` VALUES ('138', 'actionAdminControllerSetMedia', 'actionAdminControllerSetMedia', '', '0', '0');
 INSERT INTO `ps_hook` VALUES ('139', 'dashboardZoneTwo', 'dashboardZoneTwo', '', '0', '0');
 INSERT INTO `ps_hook` VALUES ('140', 'displayProductListReviews', 'displayProductListReviews', '', '1', '1');
+INSERT INTO `ps_hook` VALUES ('141', 'actionAdminMetaControllerUpdate_optionsAfter', 'actionAdminMetaControllerUpdate_optionsAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('142', 'actionAdminPerformanceControllerSaveAfter', 'actionAdminPerformanceControllerSaveAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('143', 'actionObjectCarrierAddAfter', 'actionObjectCarrierAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('144', 'actionObjectContactAddAfter', 'actionObjectContactAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('145', 'actionAdminThemesControllerUpdate_optionsAfter', 'actionAdminThemesControllerUpdate_optionsAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('146', 'actionObjectShopUpdateAfter', 'actionObjectShopUpdateAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('147', 'actionAdminPreferencesControllerUpdate_optionsAfter', 'actionAdminPreferencesControllerUpdate_optionsAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('148', 'actionObjectShopAddAfter', 'actionObjectShopAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('149', 'actionObjectShopGroupAddAfter', 'actionObjectShopGroupAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('150', 'actionObjectCartAddAfter', 'actionObjectCartAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('151', 'actionObjectEmployeeAddAfter', 'actionObjectEmployeeAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('152', 'actionObjectImageAddAfter', 'actionObjectImageAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('153', 'actionObjectCartRuleAddAfter', 'actionObjectCartRuleAddAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('154', 'actionAdminStoresControllerSaveAfter', 'actionAdminStoresControllerSaveAfter', '', '0', '0');
+INSERT INTO `ps_hook` VALUES ('155', 'actionAdminWebserviceControllerSaveAfter', 'actionAdminWebserviceControllerSaveAfter', '', '0', '0');
 
 -- ----------------------------
 -- Table structure for `ps_hook_alias`
@@ -4455,6 +5468,24 @@ INSERT INTO `ps_hook_module` VALUES ('40', '1', '38', '1');
 INSERT INTO `ps_hook_module` VALUES ('50', '1', '12', '1');
 INSERT INTO `ps_hook_module` VALUES ('63', '1', '9', '1');
 INSERT INTO `ps_hook_module` VALUES ('63', '1', '56', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '2', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '20', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '94', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '141', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '142', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '143', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '144', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '145', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '146', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '147', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '148', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '149', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '150', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '151', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '152', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '153', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '154', '1');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '155', '1');
 INSERT INTO `ps_hook_module` VALUES ('65', '1', '11', '1');
 INSERT INTO `ps_hook_module` VALUES ('65', '1', '28', '1');
 INSERT INTO `ps_hook_module` VALUES ('65', '1', '31', '1');
@@ -4509,6 +5540,11 @@ INSERT INTO `ps_hook_module` VALUES ('60', '1', '51', '2');
 INSERT INTO `ps_hook_module` VALUES ('63', '1', '97', '2');
 INSERT INTO `ps_hook_module` VALUES ('63', '1', '106', '2');
 INSERT INTO `ps_hook_module` VALUES ('64', '1', '56', '2');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '114', '2');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '129', '2');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '130', '2');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '134', '2');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '136', '2');
 INSERT INTO `ps_hook_module` VALUES ('66', '1', '16', '2');
 INSERT INTO `ps_hook_module` VALUES ('4', '1', '10', '3');
 INSERT INTO `ps_hook_module` VALUES ('4', '1', '95', '3');
@@ -4529,6 +5565,7 @@ INSERT INTO `ps_hook_module` VALUES ('33', '1', '138', '3');
 INSERT INTO `ps_hook_module` VALUES ('34', '1', '139', '3');
 INSERT INTO `ps_hook_module` VALUES ('37', '1', '113', '3');
 INSERT INTO `ps_hook_module` VALUES ('42', '1', '38', '3');
+INSERT INTO `ps_hook_module` VALUES ('64', '1', '133', '3');
 INSERT INTO `ps_hook_module` VALUES ('68', '1', '56', '3');
 INSERT INTO `ps_hook_module` VALUES ('68', '1', '119', '3');
 INSERT INTO `ps_hook_module` VALUES ('68', '1', '120', '3');
@@ -4626,7 +5663,7 @@ CREATE TABLE `ps_hook_module_exceptions` (
   PRIMARY KEY (`id_hook_module_exceptions`),
   KEY `id_module` (`id_module`),
   KEY `id_hook` (`id_hook`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_hook_module_exceptions
@@ -5332,11 +6369,14 @@ CREATE TABLE `ps_log` (
   `date_add` datetime NOT NULL,
   `date_upd` datetime NOT NULL,
   PRIMARY KEY (`id_log`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_log
 -- ----------------------------
+INSERT INTO `ps_log` VALUES ('1', '1', '0', 'Conexión con el Backoffice desde 127.0.0.1', '', '0', '1', '2015-05-16 15:27:54', '2015-05-16 15:27:54');
+INSERT INTO `ps_log` VALUES ('2', '1', '0', 'Conexión con el Backoffice desde 127.0.0.1', '', '0', '1', '2015-05-16 15:35:19', '2015-05-16 15:35:19');
+INSERT INTO `ps_log` VALUES ('3', '1', '0', 'Conexión con el Backoffice desde 127.0.0.1', '', '0', '1', '2015-05-16 15:41:06', '2015-05-16 15:41:06');
 
 -- ----------------------------
 -- Table structure for `ps_mail`
@@ -6256,7 +7296,7 @@ CREATE TABLE `ps_newsletter` (
   `http_referer` varchar(255) DEFAULT NULL,
   `active` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_newsletter
@@ -6890,12 +7930,13 @@ CREATE TABLE `ps_page` (
   PRIMARY KEY (`id_page`),
   KEY `id_page_type` (`id_page_type`),
   KEY `id_object` (`id_object`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_page
 -- ----------------------------
 INSERT INTO `ps_page` VALUES ('1', '1', null);
+INSERT INTO `ps_page` VALUES ('2', '2', '0');
 
 -- ----------------------------
 -- Table structure for `ps_pagenotfound`
@@ -6925,12 +7966,13 @@ CREATE TABLE `ps_page_type` (
   `name` varchar(255) NOT NULL,
   PRIMARY KEY (`id_page_type`),
   KEY `name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_page_type
 -- ----------------------------
 INSERT INTO `ps_page_type` VALUES ('1', 'index');
+INSERT INTO `ps_page_type` VALUES ('2', 'order');
 
 -- ----------------------------
 -- Table structure for `ps_page_viewed`
@@ -9338,11 +10380,13 @@ CREATE TABLE `ps_statssearch` (
   `results` int(6) NOT NULL DEFAULT '0',
   `date_add` datetime NOT NULL,
   PRIMARY KEY (`id_statssearch`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of ps_statssearch
 -- ----------------------------
+INSERT INTO `ps_statssearch` VALUES ('1', '1', '1', 'sadf', '0', '2015-05-03 23:19:01');
+INSERT INTO `ps_statssearch` VALUES ('2', '1', '1', 'sadf', '0', '2015-05-03 23:19:04');
 
 -- ----------------------------
 -- Table structure for `ps_stock`
@@ -9934,6 +10978,29 @@ CREATE TABLE `ps_tab_advice` (
 -- ----------------------------
 -- Records of ps_tab_advice
 -- ----------------------------
+INSERT INTO `ps_tab_advice` VALUES ('0', '4');
+INSERT INTO `ps_tab_advice` VALUES ('1', '3');
+INSERT INTO `ps_tab_advice` VALUES ('1', '6');
+INSERT INTO `ps_tab_advice` VALUES ('1', '10');
+INSERT INTO `ps_tab_advice` VALUES ('1', '11');
+INSERT INTO `ps_tab_advice` VALUES ('9', '12');
+INSERT INTO `ps_tab_advice` VALUES ('21', '1');
+INSERT INTO `ps_tab_advice` VALUES ('21', '5');
+INSERT INTO `ps_tab_advice` VALUES ('21', '8');
+INSERT INTO `ps_tab_advice` VALUES ('21', '9');
+INSERT INTO `ps_tab_advice` VALUES ('22', '1');
+INSERT INTO `ps_tab_advice` VALUES ('30', '8');
+INSERT INTO `ps_tab_advice` VALUES ('31', '1');
+INSERT INTO `ps_tab_advice` VALUES ('37', '7');
+INSERT INTO `ps_tab_advice` VALUES ('37', '12');
+INSERT INTO `ps_tab_advice` VALUES ('38', '13');
+INSERT INTO `ps_tab_advice` VALUES ('38', '14');
+INSERT INTO `ps_tab_advice` VALUES ('39', '12');
+INSERT INTO `ps_tab_advice` VALUES ('41', '7');
+INSERT INTO `ps_tab_advice` VALUES ('41', '13');
+INSERT INTO `ps_tab_advice` VALUES ('41', '14');
+INSERT INTO `ps_tab_advice` VALUES ('59', '2');
+INSERT INTO `ps_tab_advice` VALUES ('72', '1');
 
 -- ----------------------------
 -- Table structure for `ps_tab_lang`

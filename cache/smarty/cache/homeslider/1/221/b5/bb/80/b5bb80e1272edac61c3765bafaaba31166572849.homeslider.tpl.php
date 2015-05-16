@@ -10,19 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '89055546dc4c2e2c97-91061915',
-  'variables' => 
-  array (
-    'page_name' => 0,
-    'homeslider_slides' => 0,
-    'slide' => 0,
-    'link' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5546dc4c357fb4_94106161',
+  'unifunc' => 'content_5557a891c202c2_22039129',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5546dc4c357fb4_94106161')) {function content_5546dc4c357fb4_94106161($_smarty_tpl) {?><!-- Module HomeSlider -->
+<?php if ($_valid && !is_callable('content_5557a891c202c2_22039129')) {function content_5557a891c202c2_22039129($_smarty_tpl) {?><!-- Module HomeSlider -->
     		<div id="homepage-slider">
 						<ul id="homeslider" style="max-height:448px;">
 															<li class="homeslider-container">
